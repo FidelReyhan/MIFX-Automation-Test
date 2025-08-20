@@ -1,0 +1,433 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - link "Download Aplikasi MIFX" [ref=e8] [cursor=pointer]:
+      - /url: https://mifx.com/rq?link=http://mifx.com/clientarea/dashboard?&ds=dashboard&code_type=campaign
+      - img [ref=e9] [cursor=pointer]
+      - text: Download Aplikasi MIFX
+    - generic [ref=e10]:
+      - link "SUPPORT CENTER" [ref=e11] [cursor=pointer]:
+        - /url: https://mifx.zendesk.com/hc/id
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13] [cursor=pointer]: SUPPORT CENTER
+      - img [ref=e14]
+      - generic [ref=e15]: 021-50996650
+      - img [ref=e16]
+      - link "Alfa" [ref=e17] [cursor=pointer]:
+        - /url: profile
+      - text: "|"
+      - link "Log Out" [ref=e18] [cursor=pointer]:
+        - /url: action-logout.php?tokenc=TVVuU1VNTms=&tokenk=fd509c12ca5535bb
+  - generic [ref=e20]:
+    - link [ref=e23] [cursor=pointer]:
+      - /url: ../index
+      - img [ref=e24] [cursor=pointer]
+    - generic [ref=e26]:
+      - generic [ref=e28]: produk
+      - generic [ref=e30]: edukasi
+      - generic [ref=e32]: berita
+      - link "TENTANG" [ref=e34] [cursor=pointer]:
+        - /url: ../about-us
+      - img [ref=e37]
+      - generic [ref=e40] [cursor=pointer]:
+        - img [ref=e41] [cursor=pointer]
+        - text: BUKA AKUN LIVE
+      - img [ref=e44]
+      - generic [ref=e47] [cursor=pointer]:
+        - generic [ref=e48] [cursor=pointer]: "1003984375"
+        - generic [ref=e51] [cursor=pointer]: Demo
+      - img [ref=e54]
+      - link [ref=e57] [cursor=pointer]:
+        - /url: notification
+        - img [ref=e59] [cursor=pointer]
+  - generic [ref=e67]:
+    - link [ref=e69] [cursor=pointer]:
+      - /url: ../index
+      - img [ref=e70] [cursor=pointer]
+    - generic [ref=e71]:
+      - img [ref=e73]
+      - generic [ref=e74]: "1003984375"
+  - link "Email Anda belum terverifikasi. Segera verifikasi email Anda untuk dapat tetap mengakses akun Anda." [ref=e82] [cursor=pointer]:
+    - /url: e-step-1
+    - img [ref=e83] [cursor=pointer]
+    - text: Email Anda belum terverifikasi. Segera verifikasi email Anda untuk dapat tetap mengakses akun Anda.
+  - generic [ref=e87]:
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - link "Beranda" [ref=e92] [cursor=pointer]:
+          - /url: dashboard
+          - img [ref=e94] [cursor=pointer]
+          - generic [ref=e97] [cursor=pointer]: Beranda
+        - link "Pasar" [ref=e99] [cursor=pointer]:
+          - /url: trade-product-list
+          - img [ref=e101] [cursor=pointer]
+          - generic [ref=e104] [cursor=pointer]: Pasar
+        - link "Order" [ref=e106] [cursor=pointer]:
+          - /url: order-list-open
+          - img [ref=e108] [cursor=pointer]
+          - generic [ref=e111] [cursor=pointer]: Order
+        - link "Lainnya" [ref=e113] [cursor=pointer]:
+          - /url: account
+          - generic [ref=e114] [cursor=pointer]:
+            - img [ref=e116] [cursor=pointer]
+            - generic [ref=e120] [cursor=pointer]: Lainnya
+      - link "Trade" [ref=e125] [cursor=pointer]:
+        - /url: trade-now
+        - img [ref=e128] [cursor=pointer]
+        - generic [ref=e131] [cursor=pointer]: Trade
+    - generic [ref=e133]:
+      - generic [ref=e135]:
+        - generic [ref=e137]:
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - generic [ref=e142]: Akun Demo Saya
+              - generic [ref=e144]: "1003984375"
+            - generic [ref=e146] [cursor=pointer]: UBAH DEMO BALANCE
+          - generic [ref=e148]:
+            - generic [ref=e154]:
+              - img [ref=e157]
+              - generic [ref=e158]:
+                - generic [ref=e160]: Balance
+                - generic [ref=e163]:
+                  - text: $
+                  - generic [ref=e164]: 104,320.00
+            - generic [ref=e171]:
+              - img [ref=e174]
+              - generic [ref=e175]:
+                - generic [ref=e177]: Equity
+                - generic [ref=e180]:
+                  - text: $
+                  - generic [ref=e181]: 104,320.00
+        - generic [ref=e189]:
+          - link [ref=e192] [cursor=pointer]:
+            - /url: https://mifx.com/rewards
+            - img [ref=e193] [cursor=pointer]
+          - link [ref=e196] [cursor=pointer]:
+            - /url: https://mifx.com/mobile-app
+            - img [ref=e197] [cursor=pointer]
+          - link [ref=e200] [cursor=pointer]:
+            - /url: https://mifx.com/pro-rebate
+            - img [ref=e201] [cursor=pointer]
+          - link [ref=e204] [cursor=pointer]:
+            - /url: https://mifx.com/mikro-multilateral
+            - img [ref=e205] [cursor=pointer]
+          - link [ref=e208] [cursor=pointer]:
+            - /url: https://mifx.com/25th-tradeversary-championship
+            - img [ref=e209] [cursor=pointer]
+          - link [ref=e212] [cursor=pointer]:
+            - /url: ""
+            - img [ref=e213] [cursor=pointer]
+          - link [ref=e216] [cursor=pointer]:
+            - /url: https://mifx.com/welcome-bonus
+            - img [ref=e217] [cursor=pointer]
+          - link [ref=e220] [cursor=pointer]:
+            - /url: https://mifx.com/gebyar-merdeka-2025
+            - img [ref=e221] [cursor=pointer]
+          - link [ref=e224] [cursor=pointer]:
+            - /url: https://mifx.com/mifx-promo-swap
+            - img [ref=e225] [cursor=pointer]
+          - link [ref=e228] [cursor=pointer]:
+            - /url: https://mifx.com/pilihan-product
+            - img [ref=e229] [cursor=pointer]
+          - link [ref=e232] [cursor=pointer]:
+            - /url: https://mifx.com/high-leverage
+            - img [ref=e233] [cursor=pointer]
+          - link [ref=e236] [cursor=pointer]:
+            - /url: https://mifx.com/referral-program
+            - img [ref=e237] [cursor=pointer]
+          - link [ref=e240] [cursor=pointer]:
+            - /url: https://mifx.com/rewards
+            - img [ref=e241] [cursor=pointer]
+          - link [ref=e244] [cursor=pointer]:
+            - /url: https://mifx.com/mobile-app
+            - img [ref=e245] [cursor=pointer]
+          - link [ref=e248] [cursor=pointer]:
+            - /url: https://mifx.com/pro-rebate
+            - img [ref=e249] [cursor=pointer]
+          - link [ref=e252] [cursor=pointer]:
+            - /url: https://mifx.com/mikro-multilateral
+            - img [ref=e253] [cursor=pointer]
+          - link [ref=e256] [cursor=pointer]:
+            - /url: https://mifx.com/25th-tradeversary-championship
+            - img [ref=e257] [cursor=pointer]
+          - link [ref=e260] [cursor=pointer]:
+            - /url: ""
+            - img [ref=e261] [cursor=pointer]
+          - link [ref=e264] [cursor=pointer]:
+            - /url: https://mifx.com/welcome-bonus
+            - img [ref=e265] [cursor=pointer]
+          - link [ref=e268] [cursor=pointer]:
+            - /url: https://mifx.com/gebyar-merdeka-2025
+            - img [ref=e269] [cursor=pointer]
+          - link [ref=e272] [cursor=pointer]:
+            - /url: https://mifx.com/mifx-promo-swap
+            - img [ref=e273] [cursor=pointer]
+          - link [ref=e276] [cursor=pointer]:
+            - /url: https://mifx.com/pilihan-product
+            - img [ref=e277] [cursor=pointer]
+          - link [ref=e280] [cursor=pointer]:
+            - /url: https://mifx.com/high-leverage
+            - img [ref=e281] [cursor=pointer]
+          - link [ref=e284] [cursor=pointer]:
+            - /url: https://mifx.com/referral-program
+            - img [ref=e285] [cursor=pointer]
+      - generic [ref=e288]:
+        - link "Deposit" [ref=e290] [cursor=pointer]:
+          - /url: "#popDemoSync"
+          - generic [ref=e291] [cursor=pointer]:
+            - img [ref=e294] [cursor=pointer]
+            - generic [ref=e295] [cursor=pointer]: Deposit
+        - link "Tarik Dana" [ref=e297] [cursor=pointer]:
+          - /url: detail-withdraw
+          - generic [ref=e298] [cursor=pointer]:
+            - img [ref=e301] [cursor=pointer]
+            - generic [ref=e302] [cursor=pointer]: Tarik Dana
+        - link "Overbook" [ref=e304] [cursor=pointer]:
+          - /url: detail-overbook
+          - generic [ref=e305] [cursor=pointer]:
+            - img [ref=e308] [cursor=pointer]
+            - generic [ref=e309] [cursor=pointer]: Overbook
+      - generic [ref=e315]:
+        - link "Trading Signal" [ref=e316] [cursor=pointer]:
+          - /url: latestsignalList
+          - generic [ref=e317] [cursor=pointer]:
+            - img [ref=e320] [cursor=pointer]
+            - generic [ref=e322] [cursor=pointer]: Trading Signal
+        - link "Top Mover" [ref=e323] [cursor=pointer]:
+          - /url: dailymoverlist
+          - generic [ref=e324] [cursor=pointer]:
+            - img [ref=e327] [cursor=pointer]
+            - generic [ref=e329] [cursor=pointer]: Top Mover
+        - link "Trending" [ref=e330] [cursor=pointer]:
+          - /url: topvolume
+          - generic [ref=e331] [cursor=pointer]:
+            - img [ref=e334] [cursor=pointer]
+            - generic [ref=e336] [cursor=pointer]: Trending
+        - link "Produk" [ref=e337] [cursor=pointer]:
+          - /url: trade-product-list
+          - generic [ref=e338] [cursor=pointer]:
+            - img [ref=e341] [cursor=pointer]
+            - generic [ref=e343] [cursor=pointer]: Produk
+        - link "Edukasi" [ref=e344] [cursor=pointer]:
+          - /url: https://mifx.com/academy/courses
+          - generic [ref=e345] [cursor=pointer]:
+            - img [ref=e348] [cursor=pointer]
+            - generic [ref=e350] [cursor=pointer]: Edukasi
+        - link "Rewards" [ref=e351] [cursor=pointer]:
+          - /url: reward-product
+          - generic [ref=e352] [cursor=pointer]:
+            - img [ref=e355] [cursor=pointer]
+            - generic [ref=e357] [cursor=pointer]: Rewards
+        - link "Deposit" [ref=e358] [cursor=pointer]:
+          - /url: "#popDemoSync"
+          - generic [ref=e359] [cursor=pointer]:
+            - img [ref=e362] [cursor=pointer]
+            - generic [ref=e364] [cursor=pointer]: Deposit
+        - generic [ref=e366] [cursor=pointer]:
+          - img [ref=e369] [cursor=pointer]
+          - generic [ref=e371] [cursor=pointer]: Lainnya
+      - generic [ref=e374]:
+        - generic [ref=e376]:
+          - generic [ref=e377]:
+            - text: Signal Produk Terpopuler
+            - img [ref=e379]
+          - link "Lihat Semua" [ref=e381] [cursor=pointer]:
+            - /url: latestsignalList
+        - generic [ref=e384]:
+          - link "Gold 23.23 WIB Take Profit 3362.79 Stop Loss 3311.58 Sumber Autochartist Potensi Buy" [ref=e386] [cursor=pointer]:
+            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796SDduUTRxWG1zSWd3Q1BpeXNZZEZRQT09&product=696f85d3deb68df5a4e45deca11cc0b12693554796SDduUTRxWG1zSWpSY1c2VGxJeWlIUT09&source=696f85d3deb68df5a4e45deca11cc0b12693554796V2ZYN3ZuZlZmZTNTcU0vaWJuVW90V0wzdUx6aGhIQkk=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796akdmbURzd09ONnpKR3F5SEhqVDNvZz09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
+            - generic [ref=e387] [cursor=pointer]:
+              - generic [ref=e388] [cursor=pointer]:
+                - generic [ref=e389] [cursor=pointer]:
+                  - generic [ref=e390] [cursor=pointer]:
+                    - img
+                  - generic [ref=e391] [cursor=pointer]:
+                    - generic [ref=e392] [cursor=pointer]: Gold
+                    - generic [ref=e394] [cursor=pointer]: 23.23 WIB
+                - generic [ref=e396] [cursor=pointer]:
+                  - generic [ref=e397] [cursor=pointer]:
+                    - text: Take Profit
+                    - generic [ref=e399] [cursor=pointer]: "3362.79"
+                  - generic [ref=e400] [cursor=pointer]:
+                    - text: Stop Loss
+                    - generic [ref=e402] [cursor=pointer]: "3311.58"
+                - generic [ref=e405] [cursor=pointer]:
+                  - text: Sumber
+                  - generic [ref=e407] [cursor=pointer]: Autochartist
+              - generic [ref=e412] [cursor=pointer]: Potensi Buy
+          - link "EURUSD 00.33 WIB Take Profit 1.1700 Stop Loss 1.1631 Sumber Trading Central Potensi Buy" [ref=e415] [cursor=pointer]:
+            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796N0xkTWtkSXBXSUNIRnhRMk8vbkxOUT09&product=696f85d3deb68df5a4e45deca11cc0b12693554796N0xkTWtkSXBXSUE3RkZPUkdCRjQ2dz09&source=696f85d3deb68df5a4e45deca11cc0b12693554796R3M0QkdMaEw3QlNYeC8vS3FEbDM0Njc2Smhya2JPSFg=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796TEpNUlZDVkt4VDdtM2xIRzVDRFJUZz09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
+            - generic [ref=e416] [cursor=pointer]:
+              - generic [ref=e417] [cursor=pointer]:
+                - generic [ref=e418] [cursor=pointer]:
+                  - generic [ref=e419] [cursor=pointer]:
+                    - img
+                  - generic [ref=e420] [cursor=pointer]:
+                    - generic [ref=e421] [cursor=pointer]: EURUSD
+                    - generic [ref=e423] [cursor=pointer]: 00.33 WIB
+                - generic [ref=e425] [cursor=pointer]:
+                  - generic [ref=e426] [cursor=pointer]:
+                    - text: Take Profit
+                    - generic [ref=e428] [cursor=pointer]: "1.1700"
+                  - generic [ref=e429] [cursor=pointer]:
+                    - text: Stop Loss
+                    - generic [ref=e431] [cursor=pointer]: "1.1631"
+                - generic [ref=e434] [cursor=pointer]:
+                  - text: Sumber
+                  - generic [ref=e436] [cursor=pointer]: Trading Central
+              - generic [ref=e441] [cursor=pointer]: Potensi Buy
+          - link "USDJPY 23.42 WIB Take Profit 146.9 Stop Loss 147.7 Sumber Autochartist Potensi Sell" [ref=e444] [cursor=pointer]:
+            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796bTUvMjlGeXAzVVdaY0syVWtwUW1Ydz09&product=696f85d3deb68df5a4e45deca11cc0b12693554796bTUvMjlGeXAzVVZldEVpNXhaTUpLZz09&source=696f85d3deb68df5a4e45deca11cc0b12693554796V2ZYN3ZuZlZmZTNTcU0vaWJuVW90V0wzdUx6aGhIQkk=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796TEpNUlZDVkt4VDRpNGphZXdaK2ZXdz09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
+            - generic [ref=e445] [cursor=pointer]:
+              - generic [ref=e446] [cursor=pointer]:
+                - generic [ref=e447] [cursor=pointer]:
+                  - generic [ref=e448] [cursor=pointer]:
+                    - img
+                  - generic [ref=e449] [cursor=pointer]:
+                    - generic [ref=e450] [cursor=pointer]: USDJPY
+                    - generic [ref=e452] [cursor=pointer]: 23.42 WIB
+                - generic [ref=e454] [cursor=pointer]:
+                  - generic [ref=e455] [cursor=pointer]:
+                    - text: Take Profit
+                    - generic [ref=e457] [cursor=pointer]: "146.9"
+                  - generic [ref=e458] [cursor=pointer]:
+                    - text: Stop Loss
+                    - generic [ref=e460] [cursor=pointer]: "147.7"
+                - generic [ref=e463] [cursor=pointer]:
+                  - text: Sumber
+                  - generic [ref=e465] [cursor=pointer]: Autochartist
+              - generic [ref=e470] [cursor=pointer]: Potensi Sell
+          - link "GBPUSD 19.10 WIB Take Profit 1.3425 Stop Loss 1.3509 Sumber Autochartist Potensi Sell" [ref=e473] [cursor=pointer]:
+            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796NFNzaGhySHBJb0piQnRRVEt1Rnp5dz09&product=696f85d3deb68df5a4e45deca11cc0b12693554796NFNzaGhySHBJb0tCTk1oNEZjQjhDQT09&source=696f85d3deb68df5a4e45deca11cc0b12693554796V2ZYN3ZuZlZmZTNTcU0vaWJuVW90V0wzdUx6aGhIQkk=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796empDRU1UK2tUYjl4bzl2OG1pNk1MZz09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
+            - generic [ref=e474] [cursor=pointer]:
+              - generic [ref=e475] [cursor=pointer]:
+                - generic [ref=e476] [cursor=pointer]:
+                  - generic [ref=e477] [cursor=pointer]:
+                    - img
+                  - generic [ref=e478] [cursor=pointer]:
+                    - generic [ref=e479] [cursor=pointer]: GBPUSD
+                    - generic [ref=e481] [cursor=pointer]: 19.10 WIB
+                - generic [ref=e483] [cursor=pointer]:
+                  - generic [ref=e484] [cursor=pointer]:
+                    - text: Take Profit
+                    - generic [ref=e486] [cursor=pointer]: "1.3425"
+                  - generic [ref=e487] [cursor=pointer]:
+                    - text: Stop Loss
+                    - generic [ref=e489] [cursor=pointer]: "1.3509"
+                - generic [ref=e492] [cursor=pointer]:
+                  - text: Sumber
+                  - generic [ref=e494] [cursor=pointer]: Autochartist
+              - generic [ref=e499] [cursor=pointer]: Potensi Sell
+          - link "Oil 23.42 WIB Take Profit 63.07 Stop Loss 62.12 Sumber Autochartist Potensi Buy" [ref=e502] [cursor=pointer]:
+            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796UEthQWhtRDBtVWpCeC9MWFJEbXlEdz09&product=696f85d3deb68df5a4e45deca11cc0b12693554796UEthQWhtRDBtVWc3SWE0VXVLeHM2QT09&source=696f85d3deb68df5a4e45deca11cc0b12693554796V2ZYN3ZuZlZmZTNTcU0vaWJuVW90V0wzdUx6aGhIQkk=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796akdmbURzd09ONnowQmxXcGdTRVd0dz09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
+            - generic [ref=e503] [cursor=pointer]:
+              - generic [ref=e504] [cursor=pointer]:
+                - generic [ref=e505] [cursor=pointer]:
+                  - generic [ref=e506] [cursor=pointer]:
+                    - img
+                  - generic [ref=e507] [cursor=pointer]:
+                    - generic [ref=e508] [cursor=pointer]: Oil
+                    - generic [ref=e510] [cursor=pointer]: 23.42 WIB
+                - generic [ref=e512] [cursor=pointer]:
+                  - generic [ref=e513] [cursor=pointer]:
+                    - text: Take Profit
+                    - generic [ref=e515] [cursor=pointer]: "63.07"
+                  - generic [ref=e516] [cursor=pointer]:
+                    - text: Stop Loss
+                    - generic [ref=e518] [cursor=pointer]: "62.12"
+                - generic [ref=e521] [cursor=pointer]:
+                  - text: Sumber
+                  - generic [ref=e523] [cursor=pointer]: Autochartist
+              - generic [ref=e528] [cursor=pointer]: Potensi Buy
+          - link "Silver 20.22 WIB Take Profit 38.15 Stop Loss 37.34 Sumber Autochartist Potensi Buy" [ref=e531] [cursor=pointer]:
+            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796Z2xwZzlYSFYrRkptSTFmbjZSa1RIZz09&product=696f85d3deb68df5a4e45deca11cc0b12693554796Z2xwZzlYSFYrRkxUc3g1clBITmRRdz09&source=696f85d3deb68df5a4e45deca11cc0b12693554796V2ZYN3ZuZlZmZTNTcU0vaWJuVW90V0wzdUx6aGhIQkk=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796empDRU1UK2tUYit0UTZPQkE1bkpTUT09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
+            - generic [ref=e532] [cursor=pointer]:
+              - generic [ref=e533] [cursor=pointer]:
+                - generic [ref=e534] [cursor=pointer]:
+                  - generic [ref=e535] [cursor=pointer]:
+                    - img
+                  - generic [ref=e536] [cursor=pointer]:
+                    - generic [ref=e537] [cursor=pointer]: Silver
+                    - generic [ref=e539] [cursor=pointer]: 20.22 WIB
+                - generic [ref=e541] [cursor=pointer]:
+                  - generic [ref=e542] [cursor=pointer]:
+                    - text: Take Profit
+                    - generic [ref=e544] [cursor=pointer]: "38.15"
+                  - generic [ref=e545] [cursor=pointer]:
+                    - text: Stop Loss
+                    - generic [ref=e547] [cursor=pointer]: "37.34"
+                - generic [ref=e550] [cursor=pointer]:
+                  - text: Sumber
+                  - generic [ref=e552] [cursor=pointer]: Autochartist
+              - generic [ref=e557] [cursor=pointer]: Potensi Buy
+  - generic [ref=e563]:
+    - generic [ref=e566]:
+      - generic [ref=e568]:
+        - generic [ref=e569]:
+          - generic [ref=e570]: MIFX
+          - generic [ref=e572]:
+            - link "Tentang" [ref=e573] [cursor=pointer]:
+              - /url: https://mifx.com/about-us
+            - link "Produk Kami" [ref=e575] [cursor=pointer]:
+              - /url: https://mifx.com/pilihan-product
+            - link "Trading Tools" [ref=e577] [cursor=pointer]:
+              - /url: https://mifx.com/about-us/trading-tools
+            - link "Download Platform" [ref=e579] [cursor=pointer]:
+              - /url: download-tools
+            - link "Program Referral" [ref=e581] [cursor=pointer]:
+              - /url: referral-program
+            - link "Blog" [ref=e583] [cursor=pointer]:
+              - /url: https://mifx.com/academy/blogs
+        - generic [ref=e584]:
+          - generic [ref=e585]: BANTUAN
+          - generic [ref=e587]:
+            - link "Support Center" [ref=e588] [cursor=pointer]:
+              - /url: https://mifx.zendesk.com/hc/id
+            - link "Hubungi Kami" [ref=e590] [cursor=pointer]:
+              - /url: https://mifx.com/contact-us
+            - link "Pengaduan" [ref=e592] [cursor=pointer]:
+              - /url: https://mifx.com/pengaduan
+            - link "Waspada Penipuan" [ref=e594] [cursor=pointer]:
+              - /url: https://mifx.com/pemberitahuan
+            - link "Bug Bounty" [ref=e596] [cursor=pointer]:
+              - /url: https://mifx.com/bounty
+      - generic [ref=e597]:
+        - generic [ref=e598]: LEGALITAS
+        - generic [ref=e600]:
+          - text: "Badan Pengawas Perdagangan Berjangka Komoditi: 178/BAPPEBTI/SI/I/2003"
+          - text: "Bursa Berjangka Jakarta: No. SPAB-044/BBJ/03/02"
+          - text: "Bursa Komoditi dan Derivatif Indonesia: No. 010/SPKB/ICDX/Dir/III/2010"
+          - text: "Kliring Berjangka Indonesia: No. 14/AK-KBI/III/2003"
+          - text: "Indonesia Clearing House: 003/SPKK/ICH-MIF/VII/2017"
+        - generic [ref=e603]:
+          - img [ref=e605]
+          - img [ref=e606]
+      - generic [ref=e607]:
+        - generic [ref=e608]: MEDIA SOSIAL
+        - generic [ref=e610]:
+          - link [ref=e611] [cursor=pointer]:
+            - /url: https://facebook.com/mifx.indonesia/
+            - img [ref=e612] [cursor=pointer]
+          - link [ref=e613] [cursor=pointer]:
+            - /url: https://twitter.com/mifx_indonesia
+            - img [ref=e614] [cursor=pointer]
+          - link [ref=e615] [cursor=pointer]:
+            - /url: https://instagram.com/mifx.indonesia/
+            - img [ref=e616] [cursor=pointer]
+          - link [ref=e617] [cursor=pointer]:
+            - /url: https://youtube.com/user/MifxChannel
+            - img [ref=e618] [cursor=pointer]
+        - generic [ref=e620]:
+          - img [ref=e622] [cursor=pointer]
+          - img [ref=e624] [cursor=pointer]
+    - generic [ref=e625]:
+      - paragraph [ref=e627]: PT Monex Investindo Futures beroperasi berdasarkan izin dan berada di bawah pengawasan BAPPEBTI, merupakan anggota bursa BBJ dan BKDI dan anggota kliring berjangka KBI & Indonesia Clearing House.
+      - paragraph [ref=e629]: Transaksi Perdagangan Berjangka memiliki peluang keuntungan dan risiko kerugian yang tinggi. MIFX tidak memberikan rekomendasi tentang investasi ataupun produk. Semua keputusan transaksi merupakan keputusan pribadi dari Nasabah. Layanan MIFX tunduk pada yurisdiksi hukum Indonesia. Dengan mengakses situs ini, Nasabah dianggap telah memahami risiko transaksi dan menyetujui untuk tunduk pada ketentuan hukum yang berlaku.
+  - iframe [ref=e631]:
+    
+  - iframe [ref=e632]:
+    - button "Open messaging window" [ref=f2e5] [cursor=pointer]:
+      - img [ref=f2e7] [cursor=pointer]
+```
