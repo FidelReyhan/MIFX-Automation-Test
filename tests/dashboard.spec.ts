@@ -1,8 +1,9 @@
 const { test, expect } = require('@playwright/test');
 const { login } = require('../utils/login');
-const { clickPasar } = require('../utils/navbar');
+const { clickPasar, clickOrder } = require('../utils/navbar');
 import dotenv from 'dotenv';
-import { clickOrder } from '../utils/navbar';
+
+
 
 dotenv.config(); // load .env
 

@@ -4,7 +4,7 @@
 - generic [active] [ref=e1]:
   - generic [ref=e5]:
     - link "Download Aplikasi MIFX" [ref=e8] [cursor=pointer]:
-      - /url: https://mifx.com/rq?link=http://mifx.com/clientarea/dashboard?&ds=dashboard&code_type=campaign
+      - /url: https://mifx.com/rq?link=http://mifx.com/clientarea/trade-product-list&ds=trade-product-list&code_type=campaign
       - img [ref=e9] [cursor=pointer]
       - text: Download Aplikasi MIFX
     - generic [ref=e10]:
@@ -19,7 +19,7 @@
         - /url: profile
       - text: "|"
       - link "Log Out" [ref=e18] [cursor=pointer]:
-        - /url: action-logout.php?tokenc=TVVuU1VNTms=&tokenk=fd509c12ca5535bb
+        - /url: action-logout.php?tokenc=OENCTWhNM3Y=&tokenk=7588394c53c27a2f
   - generic [ref=e20]:
     - link [ref=e23] [cursor=pointer]:
       - /url: ../index
@@ -48,386 +48,991 @@
       - img [ref=e70] [cursor=pointer]
     - generic [ref=e71]:
       - img [ref=e73]
-      - generic [ref=e74]: "1003984375"
-  - link "Email Anda belum terverifikasi. Segera verifikasi email Anda untuk dapat tetap mengakses akun Anda." [ref=e82] [cursor=pointer]:
-    - /url: e-step-1
-    - img [ref=e83] [cursor=pointer]
-    - text: Email Anda belum terverifikasi. Segera verifikasi email Anda untuk dapat tetap mengakses akun Anda.
-  - generic [ref=e87]:
-    - generic [ref=e89]:
-      - generic [ref=e90]:
-        - link "Beranda" [ref=e92] [cursor=pointer]:
+      - link "1003984375" [ref=e75] [cursor=pointer]:
+        - /url: dashboard
+      - img [ref=e77]
+      - generic [ref=e78]: Pasar
+  - generic [ref=e81]:
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - link "Beranda" [ref=e86] [cursor=pointer]:
           - /url: dashboard
-          - img [ref=e94] [cursor=pointer]
-          - generic [ref=e97] [cursor=pointer]: Beranda
-        - link "Pasar" [ref=e99] [cursor=pointer]:
+          - img [ref=e88] [cursor=pointer]
+          - generic [ref=e91] [cursor=pointer]: Beranda
+        - link "Pasar" [ref=e93] [cursor=pointer]:
           - /url: trade-product-list
-          - img [ref=e101] [cursor=pointer]
-          - generic [ref=e104] [cursor=pointer]: Pasar
-        - link "Order" [ref=e106] [cursor=pointer]:
+          - img [ref=e95] [cursor=pointer]
+          - generic [ref=e98] [cursor=pointer]: Pasar
+        - link "Order" [ref=e100] [cursor=pointer]:
           - /url: order-list-open
-          - img [ref=e108] [cursor=pointer]
-          - generic [ref=e111] [cursor=pointer]: Order
-        - link "Lainnya" [ref=e113] [cursor=pointer]:
+          - img [ref=e102] [cursor=pointer]
+          - generic [ref=e105] [cursor=pointer]: Order
+        - link "Lainnya" [ref=e107] [cursor=pointer]:
           - /url: account
-          - generic [ref=e114] [cursor=pointer]:
-            - img [ref=e116] [cursor=pointer]
-            - generic [ref=e120] [cursor=pointer]: Lainnya
-      - link "Trade" [ref=e125] [cursor=pointer]:
+          - generic [ref=e108] [cursor=pointer]:
+            - img [ref=e110] [cursor=pointer]
+            - generic [ref=e114] [cursor=pointer]: Lainnya
+      - link "Trade" [ref=e119] [cursor=pointer]:
         - /url: trade-now
-        - img [ref=e128] [cursor=pointer]
-        - generic [ref=e131] [cursor=pointer]: Trade
-    - generic [ref=e133]:
-      - generic [ref=e135]:
+        - img [ref=e122] [cursor=pointer]
+        - generic [ref=e125] [cursor=pointer]: Trade
+    - generic [ref=e127]:
+      - textbox "Cari Produk" [ref=e132]
+      - generic [ref=e133]:
+        - generic [ref=e135]: Kategori Produk
         - generic [ref=e137]:
-          - generic [ref=e140]:
-            - generic [ref=e141]:
-              - generic [ref=e142]: Akun Demo Saya
-              - generic [ref=e144]: "1003984375"
-            - generic [ref=e146] [cursor=pointer]: UBAH DEMO BALANCE
-          - generic [ref=e148]:
-            - generic [ref=e154]:
-              - img [ref=e157]
-              - generic [ref=e158]:
-                - generic [ref=e160]: Balance
-                - generic [ref=e163]:
-                  - text: $
-                  - generic [ref=e164]: 104,320.00
-            - generic [ref=e171]:
-              - img [ref=e174]
-              - generic [ref=e175]:
-                - generic [ref=e177]: Equity
-                - generic [ref=e180]:
-                  - text: $
-                  - generic [ref=e181]: 104,320.00
-        - generic [ref=e189]:
-          - link [ref=e192] [cursor=pointer]:
-            - /url: https://mifx.com/rewards
-            - img [ref=e193] [cursor=pointer]
-          - link [ref=e196] [cursor=pointer]:
-            - /url: https://mifx.com/mobile-app
-            - img [ref=e197] [cursor=pointer]
-          - link [ref=e200] [cursor=pointer]:
-            - /url: https://mifx.com/pro-rebate
-            - img [ref=e201] [cursor=pointer]
-          - link [ref=e204] [cursor=pointer]:
-            - /url: https://mifx.com/mikro-multilateral
-            - img [ref=e205] [cursor=pointer]
-          - link [ref=e208] [cursor=pointer]:
-            - /url: https://mifx.com/25th-tradeversary-championship
-            - img [ref=e209] [cursor=pointer]
-          - link [ref=e212] [cursor=pointer]:
-            - /url: ""
-            - img [ref=e213] [cursor=pointer]
-          - link [ref=e216] [cursor=pointer]:
-            - /url: https://mifx.com/welcome-bonus
-            - img [ref=e217] [cursor=pointer]
-          - link [ref=e220] [cursor=pointer]:
-            - /url: https://mifx.com/gebyar-merdeka-2025
-            - img [ref=e221] [cursor=pointer]
-          - link [ref=e224] [cursor=pointer]:
-            - /url: https://mifx.com/mifx-promo-swap
-            - img [ref=e225] [cursor=pointer]
-          - link [ref=e228] [cursor=pointer]:
-            - /url: https://mifx.com/pilihan-product
-            - img [ref=e229] [cursor=pointer]
-          - link [ref=e232] [cursor=pointer]:
-            - /url: https://mifx.com/high-leverage
-            - img [ref=e233] [cursor=pointer]
-          - link [ref=e236] [cursor=pointer]:
-            - /url: https://mifx.com/referral-program
-            - img [ref=e237] [cursor=pointer]
-          - link [ref=e240] [cursor=pointer]:
-            - /url: https://mifx.com/rewards
-            - img [ref=e241] [cursor=pointer]
-          - link [ref=e244] [cursor=pointer]:
-            - /url: https://mifx.com/mobile-app
-            - img [ref=e245] [cursor=pointer]
-          - link [ref=e248] [cursor=pointer]:
-            - /url: https://mifx.com/pro-rebate
+          - link "Favorit" [ref=e139] [cursor=pointer]:
+            - /url: trade-product-list?ptype=f4c12de09956cce2e2dc3a107fe6a3a3521091802UWdCdmFrbmEwMzA9
+            - generic [ref=e141] [cursor=pointer]: Favorit
+          - link "Forex" [ref=e144] [cursor=pointer]:
+            - /url: trade-product-list?ptype=f4c12de09956cce2e2dc3a107fe6a3a3521091802aGlxdms3YTR1Snc9
+            - generic [ref=e146] [cursor=pointer]: Forex
+          - link "Komoditi" [ref=e149] [cursor=pointer]:
+            - /url: trade-product-list?ptype=f4c12de09956cce2e2dc3a107fe6a3a3521091802a3czeHBXSDlpQVU9
+            - generic [ref=e151] [cursor=pointer]: Komoditi
+          - link "Index" [ref=e154] [cursor=pointer]:
+            - /url: trade-product-list?ptype=f4c12de09956cce2e2dc3a107fe6a3a3521091802NU1rQzh6WkhDQXc9
+            - generic [ref=e156] [cursor=pointer]: Index
+      - generic [ref=e159]:
+        - generic [ref=e164]:
+          - 'link "AUDCAD.m $0 / 0.1 Lot Bid L : Ask H : Spread Buy 77%" [ref=e165] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802ODJYMVFkcjY5dW9td1gwZFoyQ1l2QT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802ODJYMVFkcjY5dXBJeWY5cUpGaFcydz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e167] [cursor=pointer]
+            - generic [ref=e168] [cursor=pointer]:
+              - generic [ref=e170] [cursor=pointer]: AUDCAD.m
+              - generic [ref=e173] [cursor=pointer]:
+                - generic [ref=e174] [cursor=pointer]: $0
+                - generic [ref=e175] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e177] [cursor=pointer]
+            - generic [ref=e179] [cursor=pointer]:
+              - generic [ref=e181] [cursor=pointer]: Bid
+              - generic [ref=e183] [cursor=pointer]: "L :"
+            - generic [ref=e185] [cursor=pointer]:
+              - generic [ref=e187] [cursor=pointer]: Ask
+              - generic [ref=e189] [cursor=pointer]: "H :"
+            - generic [ref=e192] [cursor=pointer]:
+              - img [ref=e193] [cursor=pointer]
+              - text: Spread
+            - img [ref=e195] [cursor=pointer]
+            - generic [ref=e196] [cursor=pointer]:
+              - generic [ref=e197] [cursor=pointer]: Buy
+              - generic [ref=e200] [cursor=pointer]: 77%
+            - img [ref=e202] [cursor=pointer]
+          - img [ref=e204] [cursor=pointer]
+        - generic [ref=e211]:
+          - 'link "AUDCHF $0 / 0.1 Lot Bid L : Ask H : Spread Buy 66%" [ref=e212] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802SUw2TlNkQUsxUzY2ZCtqbWtFMDJtdz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802SUw2TlNkQUsxUzZOZkhEbUVXYWM0Zz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e214] [cursor=pointer]
+            - generic [ref=e215] [cursor=pointer]:
+              - generic [ref=e217] [cursor=pointer]: AUDCHF
+              - generic [ref=e220] [cursor=pointer]:
+                - generic [ref=e221] [cursor=pointer]: $0
+                - generic [ref=e222] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e224] [cursor=pointer]
+            - generic [ref=e226] [cursor=pointer]:
+              - generic [ref=e228] [cursor=pointer]: Bid
+              - generic [ref=e230] [cursor=pointer]: "L :"
+            - generic [ref=e232] [cursor=pointer]:
+              - generic [ref=e234] [cursor=pointer]: Ask
+              - generic [ref=e236] [cursor=pointer]: "H :"
+            - generic [ref=e239] [cursor=pointer]:
+              - img [ref=e240] [cursor=pointer]
+              - text: Spread
+            - img [ref=e242] [cursor=pointer]
+            - generic [ref=e243] [cursor=pointer]:
+              - generic [ref=e244] [cursor=pointer]: Buy
+              - generic [ref=e247] [cursor=pointer]: 66%
             - img [ref=e249] [cursor=pointer]
-          - link [ref=e252] [cursor=pointer]:
-            - /url: https://mifx.com/mikro-multilateral
-            - img [ref=e253] [cursor=pointer]
-          - link [ref=e256] [cursor=pointer]:
-            - /url: https://mifx.com/25th-tradeversary-championship
-            - img [ref=e257] [cursor=pointer]
-          - link [ref=e260] [cursor=pointer]:
-            - /url: ""
+          - img [ref=e251] [cursor=pointer]
+        - generic [ref=e258]:
+          - 'link "AUDJPY $0 / 0.1 Lot Bid L : Ask H : Spread Buy 93%" [ref=e259] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802cWRNV2tNUTBJKzg4MitKRTdNaHBIQT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802cWRNV2tNUTBJKzkxTUNSTWo3Z3Iydz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
             - img [ref=e261] [cursor=pointer]
-          - link [ref=e264] [cursor=pointer]:
-            - /url: https://mifx.com/welcome-bonus
-            - img [ref=e265] [cursor=pointer]
-          - link [ref=e268] [cursor=pointer]:
-            - /url: https://mifx.com/gebyar-merdeka-2025
-            - img [ref=e269] [cursor=pointer]
-          - link [ref=e272] [cursor=pointer]:
-            - /url: https://mifx.com/mifx-promo-swap
-            - img [ref=e273] [cursor=pointer]
-          - link [ref=e276] [cursor=pointer]:
-            - /url: https://mifx.com/pilihan-product
-            - img [ref=e277] [cursor=pointer]
-          - link [ref=e280] [cursor=pointer]:
-            - /url: https://mifx.com/high-leverage
-            - img [ref=e281] [cursor=pointer]
-          - link [ref=e284] [cursor=pointer]:
-            - /url: https://mifx.com/referral-program
-            - img [ref=e285] [cursor=pointer]
-      - generic [ref=e288]:
-        - link "Deposit" [ref=e290] [cursor=pointer]:
-          - /url: "#popDemoSync"
-          - generic [ref=e291] [cursor=pointer]:
-            - img [ref=e294] [cursor=pointer]
-            - generic [ref=e295] [cursor=pointer]: Deposit
-        - link "Tarik Dana" [ref=e297] [cursor=pointer]:
-          - /url: detail-withdraw
-          - generic [ref=e298] [cursor=pointer]:
-            - img [ref=e301] [cursor=pointer]
-            - generic [ref=e302] [cursor=pointer]: Tarik Dana
-        - link "Overbook" [ref=e304] [cursor=pointer]:
-          - /url: detail-overbook
-          - generic [ref=e305] [cursor=pointer]:
+            - generic [ref=e262] [cursor=pointer]:
+              - generic [ref=e264] [cursor=pointer]: AUDJPY
+              - generic [ref=e267] [cursor=pointer]:
+                - generic [ref=e268] [cursor=pointer]: $0
+                - generic [ref=e269] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e271] [cursor=pointer]
+            - generic [ref=e273] [cursor=pointer]:
+              - generic [ref=e275] [cursor=pointer]: Bid
+              - generic [ref=e277] [cursor=pointer]: "L :"
+            - generic [ref=e279] [cursor=pointer]:
+              - generic [ref=e281] [cursor=pointer]: Ask
+              - generic [ref=e283] [cursor=pointer]: "H :"
+            - generic [ref=e286] [cursor=pointer]:
+              - img [ref=e287] [cursor=pointer]
+              - text: Spread
+            - img [ref=e289] [cursor=pointer]
+            - generic [ref=e290] [cursor=pointer]:
+              - generic [ref=e291] [cursor=pointer]: Buy
+              - generic [ref=e294] [cursor=pointer]: 93%
+            - img [ref=e296] [cursor=pointer]
+          - img [ref=e298] [cursor=pointer]
+        - generic [ref=e305]:
+          - 'link "AUDNZD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 96%" [ref=e306] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802TXZKMCt2SkV3NUFDeXVaVWo5MFhIQT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802TXZKMCt2SkV3NUFnYWRtZ3ozRUdEQT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
             - img [ref=e308] [cursor=pointer]
-            - generic [ref=e309] [cursor=pointer]: Overbook
-      - generic [ref=e315]:
-        - link "Trading Signal" [ref=e316] [cursor=pointer]:
-          - /url: latestsignalList
-          - generic [ref=e317] [cursor=pointer]:
-            - img [ref=e320] [cursor=pointer]
-            - generic [ref=e322] [cursor=pointer]: Trading Signal
-        - link "Top Mover" [ref=e323] [cursor=pointer]:
-          - /url: dailymoverlist
-          - generic [ref=e324] [cursor=pointer]:
-            - img [ref=e327] [cursor=pointer]
-            - generic [ref=e329] [cursor=pointer]: Top Mover
-        - link "Trending" [ref=e330] [cursor=pointer]:
-          - /url: topvolume
-          - generic [ref=e331] [cursor=pointer]:
-            - img [ref=e334] [cursor=pointer]
-            - generic [ref=e336] [cursor=pointer]: Trending
-        - link "Produk" [ref=e337] [cursor=pointer]:
-          - /url: trade-product-list
-          - generic [ref=e338] [cursor=pointer]:
-            - img [ref=e341] [cursor=pointer]
-            - generic [ref=e343] [cursor=pointer]: Produk
-        - link "Edukasi" [ref=e344] [cursor=pointer]:
-          - /url: https://mifx.com/academy/courses
-          - generic [ref=e345] [cursor=pointer]:
-            - img [ref=e348] [cursor=pointer]
-            - generic [ref=e350] [cursor=pointer]: Edukasi
-        - link "Rewards" [ref=e351] [cursor=pointer]:
-          - /url: reward-product
-          - generic [ref=e352] [cursor=pointer]:
+            - generic [ref=e309] [cursor=pointer]:
+              - generic [ref=e311] [cursor=pointer]: AUDNZD
+              - generic [ref=e314] [cursor=pointer]:
+                - generic [ref=e315] [cursor=pointer]: $0
+                - generic [ref=e316] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e318] [cursor=pointer]
+            - generic [ref=e320] [cursor=pointer]:
+              - generic [ref=e322] [cursor=pointer]: Bid
+              - generic [ref=e324] [cursor=pointer]: "L :"
+            - generic [ref=e326] [cursor=pointer]:
+              - generic [ref=e328] [cursor=pointer]: Ask
+              - generic [ref=e330] [cursor=pointer]: "H :"
+            - generic [ref=e333] [cursor=pointer]:
+              - img [ref=e334] [cursor=pointer]
+              - text: Spread
+            - img [ref=e336] [cursor=pointer]
+            - generic [ref=e337] [cursor=pointer]:
+              - generic [ref=e338] [cursor=pointer]: Buy
+              - generic [ref=e341] [cursor=pointer]: 96%
+            - img [ref=e343] [cursor=pointer]
+          - img [ref=e345] [cursor=pointer]
+        - generic [ref=e352]:
+          - 'link "AUDUSD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 58%" [ref=e353] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802dDN0amtvWm1sN0tFZUFTR2hFN2Yvdz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802dDN0amtvWm1sN0lCUVJ5Z1JHdisrdz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
             - img [ref=e355] [cursor=pointer]
-            - generic [ref=e357] [cursor=pointer]: Rewards
-        - link "Deposit" [ref=e358] [cursor=pointer]:
-          - /url: "#popDemoSync"
-          - generic [ref=e359] [cursor=pointer]:
-            - img [ref=e362] [cursor=pointer]
-            - generic [ref=e364] [cursor=pointer]: Deposit
-        - generic [ref=e366] [cursor=pointer]:
-          - img [ref=e369] [cursor=pointer]
-          - generic [ref=e371] [cursor=pointer]: Lainnya
-      - generic [ref=e374]:
-        - generic [ref=e376]:
-          - generic [ref=e377]:
-            - text: Signal Produk Terpopuler
-            - img [ref=e379]
-          - link "Lihat Semua" [ref=e381] [cursor=pointer]:
-            - /url: latestsignalList
-        - generic [ref=e384]:
-          - link "Gold 23.23 WIB Take Profit 3362.79 Stop Loss 3311.58 Sumber Autochartist Potensi Buy" [ref=e386] [cursor=pointer]:
-            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796SDduUTRxWG1zSWd3Q1BpeXNZZEZRQT09&product=696f85d3deb68df5a4e45deca11cc0b12693554796SDduUTRxWG1zSWpSY1c2VGxJeWlIUT09&source=696f85d3deb68df5a4e45deca11cc0b12693554796V2ZYN3ZuZlZmZTNTcU0vaWJuVW90V0wzdUx6aGhIQkk=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796akdmbURzd09ONnpKR3F5SEhqVDNvZz09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
-            - generic [ref=e387] [cursor=pointer]:
-              - generic [ref=e388] [cursor=pointer]:
-                - generic [ref=e389] [cursor=pointer]:
-                  - generic [ref=e390] [cursor=pointer]:
-                    - img
-                  - generic [ref=e391] [cursor=pointer]:
-                    - generic [ref=e392] [cursor=pointer]: Gold
-                    - generic [ref=e394] [cursor=pointer]: 23.23 WIB
-                - generic [ref=e396] [cursor=pointer]:
-                  - generic [ref=e397] [cursor=pointer]:
-                    - text: Take Profit
-                    - generic [ref=e399] [cursor=pointer]: "3362.79"
-                  - generic [ref=e400] [cursor=pointer]:
-                    - text: Stop Loss
-                    - generic [ref=e402] [cursor=pointer]: "3311.58"
-                - generic [ref=e405] [cursor=pointer]:
-                  - text: Sumber
-                  - generic [ref=e407] [cursor=pointer]: Autochartist
-              - generic [ref=e412] [cursor=pointer]: Potensi Buy
-          - link "EURUSD 00.33 WIB Take Profit 1.1700 Stop Loss 1.1631 Sumber Trading Central Potensi Buy" [ref=e415] [cursor=pointer]:
-            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796N0xkTWtkSXBXSUNIRnhRMk8vbkxOUT09&product=696f85d3deb68df5a4e45deca11cc0b12693554796N0xkTWtkSXBXSUE3RkZPUkdCRjQ2dz09&source=696f85d3deb68df5a4e45deca11cc0b12693554796R3M0QkdMaEw3QlNYeC8vS3FEbDM0Njc2Smhya2JPSFg=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796TEpNUlZDVkt4VDdtM2xIRzVDRFJUZz09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
-            - generic [ref=e416] [cursor=pointer]:
-              - generic [ref=e417] [cursor=pointer]:
-                - generic [ref=e418] [cursor=pointer]:
-                  - generic [ref=e419] [cursor=pointer]:
-                    - img
-                  - generic [ref=e420] [cursor=pointer]:
-                    - generic [ref=e421] [cursor=pointer]: EURUSD
-                    - generic [ref=e423] [cursor=pointer]: 00.33 WIB
-                - generic [ref=e425] [cursor=pointer]:
-                  - generic [ref=e426] [cursor=pointer]:
-                    - text: Take Profit
-                    - generic [ref=e428] [cursor=pointer]: "1.1700"
-                  - generic [ref=e429] [cursor=pointer]:
-                    - text: Stop Loss
-                    - generic [ref=e431] [cursor=pointer]: "1.1631"
-                - generic [ref=e434] [cursor=pointer]:
-                  - text: Sumber
-                  - generic [ref=e436] [cursor=pointer]: Trading Central
-              - generic [ref=e441] [cursor=pointer]: Potensi Buy
-          - link "USDJPY 23.42 WIB Take Profit 146.9 Stop Loss 147.7 Sumber Autochartist Potensi Sell" [ref=e444] [cursor=pointer]:
-            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796bTUvMjlGeXAzVVdaY0syVWtwUW1Ydz09&product=696f85d3deb68df5a4e45deca11cc0b12693554796bTUvMjlGeXAzVVZldEVpNXhaTUpLZz09&source=696f85d3deb68df5a4e45deca11cc0b12693554796V2ZYN3ZuZlZmZTNTcU0vaWJuVW90V0wzdUx6aGhIQkk=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796TEpNUlZDVkt4VDRpNGphZXdaK2ZXdz09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
-            - generic [ref=e445] [cursor=pointer]:
-              - generic [ref=e446] [cursor=pointer]:
-                - generic [ref=e447] [cursor=pointer]:
-                  - generic [ref=e448] [cursor=pointer]:
-                    - img
-                  - generic [ref=e449] [cursor=pointer]:
-                    - generic [ref=e450] [cursor=pointer]: USDJPY
-                    - generic [ref=e452] [cursor=pointer]: 23.42 WIB
-                - generic [ref=e454] [cursor=pointer]:
-                  - generic [ref=e455] [cursor=pointer]:
-                    - text: Take Profit
-                    - generic [ref=e457] [cursor=pointer]: "146.9"
-                  - generic [ref=e458] [cursor=pointer]:
-                    - text: Stop Loss
-                    - generic [ref=e460] [cursor=pointer]: "147.7"
-                - generic [ref=e463] [cursor=pointer]:
-                  - text: Sumber
-                  - generic [ref=e465] [cursor=pointer]: Autochartist
-              - generic [ref=e470] [cursor=pointer]: Potensi Sell
-          - link "GBPUSD 19.10 WIB Take Profit 1.3425 Stop Loss 1.3509 Sumber Autochartist Potensi Sell" [ref=e473] [cursor=pointer]:
-            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796NFNzaGhySHBJb0piQnRRVEt1Rnp5dz09&product=696f85d3deb68df5a4e45deca11cc0b12693554796NFNzaGhySHBJb0tCTk1oNEZjQjhDQT09&source=696f85d3deb68df5a4e45deca11cc0b12693554796V2ZYN3ZuZlZmZTNTcU0vaWJuVW90V0wzdUx6aGhIQkk=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796empDRU1UK2tUYjl4bzl2OG1pNk1MZz09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
+            - generic [ref=e356] [cursor=pointer]:
+              - generic [ref=e358] [cursor=pointer]: AUDUSD
+              - generic [ref=e361] [cursor=pointer]:
+                - generic [ref=e362] [cursor=pointer]: $0
+                - generic [ref=e363] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e365] [cursor=pointer]
+            - generic [ref=e367] [cursor=pointer]:
+              - generic [ref=e369] [cursor=pointer]: Bid
+              - generic [ref=e371] [cursor=pointer]: "L :"
+            - generic [ref=e373] [cursor=pointer]:
+              - generic [ref=e375] [cursor=pointer]: Ask
+              - generic [ref=e377] [cursor=pointer]: "H :"
+            - generic [ref=e380] [cursor=pointer]:
+              - img [ref=e381] [cursor=pointer]
+              - text: Spread
+            - img [ref=e383] [cursor=pointer]
+            - generic [ref=e384] [cursor=pointer]:
+              - generic [ref=e385] [cursor=pointer]: Buy
+              - generic [ref=e388] [cursor=pointer]: 58%
+            - img [ref=e390] [cursor=pointer]
+          - img [ref=e392] [cursor=pointer]
+        - generic [ref=e399]:
+          - 'link "CHFJPY $0 / 0.1 Lot Bid L : Ask H : Spread Sell 82%" [ref=e400] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802MllRTUdCZHBiOStERElPYU5UT2lDdz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802MllRTUdCZHBiOStBM0VxNnNIQm9IQT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e402] [cursor=pointer]
+            - generic [ref=e403] [cursor=pointer]:
+              - generic [ref=e405] [cursor=pointer]: CHFJPY
+              - generic [ref=e408] [cursor=pointer]:
+                - generic [ref=e409] [cursor=pointer]: $0
+                - generic [ref=e410] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e412] [cursor=pointer]
+            - generic [ref=e414] [cursor=pointer]:
+              - generic [ref=e416] [cursor=pointer]: Bid
+              - generic [ref=e418] [cursor=pointer]: "L :"
+            - generic [ref=e420] [cursor=pointer]:
+              - generic [ref=e422] [cursor=pointer]: Ask
+              - generic [ref=e424] [cursor=pointer]: "H :"
+            - generic [ref=e427] [cursor=pointer]:
+              - img [ref=e428] [cursor=pointer]
+              - text: Spread
+            - img [ref=e430] [cursor=pointer]
+            - generic [ref=e431] [cursor=pointer]:
+              - generic [ref=e432] [cursor=pointer]: Sell
+              - generic [ref=e435] [cursor=pointer]: 82%
+            - img [ref=e437] [cursor=pointer]
+          - img [ref=e439] [cursor=pointer]
+        - generic [ref=e446]:
+          - 'link "Oil $0 / 0.1 Lot Bid L : Ask H : Spread Buy 54%" [ref=e447] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802UEthQWhtRDBtVWc3SWE0VXVLeHM2QT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802UEthQWhtRDBtVWpCeC9MWFJEbXlEdz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e449] [cursor=pointer]
+            - generic [ref=e450] [cursor=pointer]:
+              - generic [ref=e452] [cursor=pointer]: Oil
+              - generic [ref=e455] [cursor=pointer]:
+                - generic [ref=e456] [cursor=pointer]: $0
+                - generic [ref=e457] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e459] [cursor=pointer]
+            - generic [ref=e461] [cursor=pointer]:
+              - generic [ref=e463] [cursor=pointer]: Bid
+              - generic [ref=e465] [cursor=pointer]: "L :"
+            - generic [ref=e467] [cursor=pointer]:
+              - generic [ref=e469] [cursor=pointer]: Ask
+              - generic [ref=e471] [cursor=pointer]: "H :"
             - generic [ref=e474] [cursor=pointer]:
-              - generic [ref=e475] [cursor=pointer]:
-                - generic [ref=e476] [cursor=pointer]:
-                  - generic [ref=e477] [cursor=pointer]:
-                    - img
-                  - generic [ref=e478] [cursor=pointer]:
-                    - generic [ref=e479] [cursor=pointer]: GBPUSD
-                    - generic [ref=e481] [cursor=pointer]: 19.10 WIB
-                - generic [ref=e483] [cursor=pointer]:
-                  - generic [ref=e484] [cursor=pointer]:
-                    - text: Take Profit
-                    - generic [ref=e486] [cursor=pointer]: "1.3425"
-                  - generic [ref=e487] [cursor=pointer]:
-                    - text: Stop Loss
-                    - generic [ref=e489] [cursor=pointer]: "1.3509"
-                - generic [ref=e492] [cursor=pointer]:
-                  - text: Sumber
-                  - generic [ref=e494] [cursor=pointer]: Autochartist
-              - generic [ref=e499] [cursor=pointer]: Potensi Sell
-          - link "Oil 23.42 WIB Take Profit 63.07 Stop Loss 62.12 Sumber Autochartist Potensi Buy" [ref=e502] [cursor=pointer]:
-            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796UEthQWhtRDBtVWpCeC9MWFJEbXlEdz09&product=696f85d3deb68df5a4e45deca11cc0b12693554796UEthQWhtRDBtVWc3SWE0VXVLeHM2QT09&source=696f85d3deb68df5a4e45deca11cc0b12693554796V2ZYN3ZuZlZmZTNTcU0vaWJuVW90V0wzdUx6aGhIQkk=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796akdmbURzd09ONnowQmxXcGdTRVd0dz09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
-            - generic [ref=e503] [cursor=pointer]:
-              - generic [ref=e504] [cursor=pointer]:
-                - generic [ref=e505] [cursor=pointer]:
-                  - generic [ref=e506] [cursor=pointer]:
-                    - img
-                  - generic [ref=e507] [cursor=pointer]:
-                    - generic [ref=e508] [cursor=pointer]: Oil
-                    - generic [ref=e510] [cursor=pointer]: 23.42 WIB
-                - generic [ref=e512] [cursor=pointer]:
-                  - generic [ref=e513] [cursor=pointer]:
-                    - text: Take Profit
-                    - generic [ref=e515] [cursor=pointer]: "63.07"
-                  - generic [ref=e516] [cursor=pointer]:
-                    - text: Stop Loss
-                    - generic [ref=e518] [cursor=pointer]: "62.12"
-                - generic [ref=e521] [cursor=pointer]:
-                  - text: Sumber
-                  - generic [ref=e523] [cursor=pointer]: Autochartist
-              - generic [ref=e528] [cursor=pointer]: Potensi Buy
-          - link "Silver 20.22 WIB Take Profit 38.15 Stop Loss 37.34 Sumber Autochartist Potensi Buy" [ref=e531] [cursor=pointer]:
-            - /url: trade-product-detail?symbol=696f85d3deb68df5a4e45deca11cc0b12693554796Z2xwZzlYSFYrRkptSTFmbjZSa1RIZz09&product=696f85d3deb68df5a4e45deca11cc0b12693554796Z2xwZzlYSFYrRkxUc3g1clBITmRRdz09&source=696f85d3deb68df5a4e45deca11cc0b12693554796V2ZYN3ZuZlZmZTNTcU0vaWJuVW90V0wzdUx6aGhIQkk=&period_id=696f85d3deb68df5a4e45deca11cc0b12693554796empDRU1UK2tUYit0UTZPQkE1bkpTUT09&status=696f85d3deb68df5a4e45deca11cc0b12693554796UE05WHMrMDR6elE9
-            - generic [ref=e532] [cursor=pointer]:
-              - generic [ref=e533] [cursor=pointer]:
-                - generic [ref=e534] [cursor=pointer]:
-                  - generic [ref=e535] [cursor=pointer]:
-                    - img
-                  - generic [ref=e536] [cursor=pointer]:
-                    - generic [ref=e537] [cursor=pointer]: Silver
-                    - generic [ref=e539] [cursor=pointer]: 20.22 WIB
-                - generic [ref=e541] [cursor=pointer]:
-                  - generic [ref=e542] [cursor=pointer]:
-                    - text: Take Profit
-                    - generic [ref=e544] [cursor=pointer]: "38.15"
-                  - generic [ref=e545] [cursor=pointer]:
-                    - text: Stop Loss
-                    - generic [ref=e547] [cursor=pointer]: "37.34"
-                - generic [ref=e550] [cursor=pointer]:
-                  - text: Sumber
-                  - generic [ref=e552] [cursor=pointer]: Autochartist
-              - generic [ref=e557] [cursor=pointer]: Potensi Buy
-  - generic [ref=e563]:
-    - generic [ref=e566]:
-      - generic [ref=e568]:
-        - generic [ref=e569]:
-          - generic [ref=e570]: MIFX
-          - generic [ref=e572]:
-            - link "Tentang" [ref=e573] [cursor=pointer]:
+              - img [ref=e475] [cursor=pointer]
+              - text: Spread
+            - img [ref=e477] [cursor=pointer]
+            - generic [ref=e478] [cursor=pointer]:
+              - generic [ref=e479] [cursor=pointer]: Buy
+              - generic [ref=e482] [cursor=pointer]: 54%
+            - img [ref=e484] [cursor=pointer]
+          - img [ref=e486] [cursor=pointer]
+        - generic [ref=e493]:
+          - 'link "Dow Jones $0 / 0.1 Lot Bid L : Ask H : Spread Sell 54%" [ref=e494] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802RlRtREIxZjBOekNsbVZuRnc1eWxmZz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802U01WZE52OGtkYUZEc0hFbmNzK0d0dz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e496] [cursor=pointer]
+            - generic [ref=e497] [cursor=pointer]:
+              - generic [ref=e499] [cursor=pointer]: Dow Jones
+              - generic [ref=e502] [cursor=pointer]:
+                - generic [ref=e503] [cursor=pointer]: $0
+                - generic [ref=e504] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e506] [cursor=pointer]
+            - generic [ref=e508] [cursor=pointer]:
+              - generic [ref=e510] [cursor=pointer]: Bid
+              - generic [ref=e512] [cursor=pointer]: "L :"
+            - generic [ref=e514] [cursor=pointer]:
+              - generic [ref=e516] [cursor=pointer]: Ask
+              - generic [ref=e518] [cursor=pointer]: "H :"
+            - generic [ref=e521] [cursor=pointer]:
+              - img [ref=e522] [cursor=pointer]
+              - text: Spread
+            - img [ref=e524] [cursor=pointer]
+            - generic [ref=e525] [cursor=pointer]:
+              - generic [ref=e526] [cursor=pointer]: Sell
+              - generic [ref=e529] [cursor=pointer]: 54%
+            - img [ref=e531] [cursor=pointer]
+          - img [ref=e533] [cursor=pointer]
+        - generic [ref=e540]:
+          - 'link "EURAUD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 78%" [ref=e541] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802eTVvNDhQRTZDL25wZHdMK3hMRlNkQT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802eTVvNDhQRTZDL2tpdGF3bTVDVS9UUT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e543] [cursor=pointer]
+            - generic [ref=e544] [cursor=pointer]:
+              - generic [ref=e546] [cursor=pointer]: EURAUD
+              - generic [ref=e549] [cursor=pointer]:
+                - generic [ref=e550] [cursor=pointer]: $0
+                - generic [ref=e551] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e553] [cursor=pointer]
+            - generic [ref=e555] [cursor=pointer]:
+              - generic [ref=e557] [cursor=pointer]: Bid
+              - generic [ref=e559] [cursor=pointer]: "L :"
+            - generic [ref=e561] [cursor=pointer]:
+              - generic [ref=e563] [cursor=pointer]: Ask
+              - generic [ref=e565] [cursor=pointer]: "H :"
+            - generic [ref=e568] [cursor=pointer]:
+              - img [ref=e569] [cursor=pointer]
+              - text: Spread
+            - img [ref=e571] [cursor=pointer]
+            - generic [ref=e572] [cursor=pointer]:
+              - generic [ref=e573] [cursor=pointer]: Buy
+              - generic [ref=e576] [cursor=pointer]: 78%
+            - img [ref=e578] [cursor=pointer]
+          - img [ref=e580] [cursor=pointer]
+        - generic [ref=e587]:
+          - 'link "EURCAD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 88%" [ref=e588] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802SFRMSnZkN0NOQVlYK0phalpoanJYdz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802SFRMSnZkN0NOQWEwV21sYkNqTCtBQT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e590] [cursor=pointer]
+            - generic [ref=e591] [cursor=pointer]:
+              - generic [ref=e593] [cursor=pointer]: EURCAD
+              - generic [ref=e596] [cursor=pointer]:
+                - generic [ref=e597] [cursor=pointer]: $0
+                - generic [ref=e598] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e600] [cursor=pointer]
+            - generic [ref=e602] [cursor=pointer]:
+              - generic [ref=e604] [cursor=pointer]: Bid
+              - generic [ref=e606] [cursor=pointer]: "L :"
+            - generic [ref=e608] [cursor=pointer]:
+              - generic [ref=e610] [cursor=pointer]: Ask
+              - generic [ref=e612] [cursor=pointer]: "H :"
+            - generic [ref=e615] [cursor=pointer]:
+              - img [ref=e616] [cursor=pointer]
+              - text: Spread
+            - img [ref=e618] [cursor=pointer]
+            - generic [ref=e619] [cursor=pointer]:
+              - generic [ref=e620] [cursor=pointer]: Buy
+              - generic [ref=e623] [cursor=pointer]: 88%
+            - img [ref=e625] [cursor=pointer]
+          - img [ref=e627] [cursor=pointer]
+        - generic [ref=e634]:
+          - 'link "EURCHF $0 / 0.1 Lot Bid L : Ask H : Spread Buy 73%" [ref=e635] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802UzgwZlRXV1dhUWUrWlJTcCtLaHd6dz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802UzgwZlRXV1dhUWVBb0VJOWhIUkVRZz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e637] [cursor=pointer]
+            - generic [ref=e638] [cursor=pointer]:
+              - generic [ref=e640] [cursor=pointer]: EURCHF
+              - generic [ref=e643] [cursor=pointer]:
+                - generic [ref=e644] [cursor=pointer]: $0
+                - generic [ref=e645] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e647] [cursor=pointer]
+            - generic [ref=e649] [cursor=pointer]:
+              - generic [ref=e651] [cursor=pointer]: Bid
+              - generic [ref=e653] [cursor=pointer]: "L :"
+            - generic [ref=e655] [cursor=pointer]:
+              - generic [ref=e657] [cursor=pointer]: Ask
+              - generic [ref=e659] [cursor=pointer]: "H :"
+            - generic [ref=e662] [cursor=pointer]:
+              - img [ref=e663] [cursor=pointer]
+              - text: Spread
+            - img [ref=e665] [cursor=pointer]
+            - generic [ref=e666] [cursor=pointer]:
+              - generic [ref=e667] [cursor=pointer]: Buy
+              - generic [ref=e670] [cursor=pointer]: 73%
+            - img [ref=e672] [cursor=pointer]
+          - img [ref=e674] [cursor=pointer]
+        - generic [ref=e681]:
+          - 'link "EURGBP $0 / 0.1 Lot Bid L : Ask H : Spread Buy 85%" [ref=e682] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802OUQzejFOMEVER1lpTHVma2hPd2d0QT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802OUQzejFOMEVER1pwaERVVmNKckU2QT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e684] [cursor=pointer]
+            - generic [ref=e685] [cursor=pointer]:
+              - generic [ref=e687] [cursor=pointer]: EURGBP
+              - generic [ref=e690] [cursor=pointer]:
+                - generic [ref=e691] [cursor=pointer]: $0
+                - generic [ref=e692] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e694] [cursor=pointer]
+            - generic [ref=e696] [cursor=pointer]:
+              - generic [ref=e698] [cursor=pointer]: Bid
+              - generic [ref=e700] [cursor=pointer]: "L :"
+            - generic [ref=e702] [cursor=pointer]:
+              - generic [ref=e704] [cursor=pointer]: Ask
+              - generic [ref=e706] [cursor=pointer]: "H :"
+            - generic [ref=e709] [cursor=pointer]:
+              - img [ref=e710] [cursor=pointer]
+              - text: Spread
+            - img [ref=e712] [cursor=pointer]
+            - generic [ref=e713] [cursor=pointer]:
+              - generic [ref=e714] [cursor=pointer]: Buy
+              - generic [ref=e717] [cursor=pointer]: 85%
+            - img [ref=e719] [cursor=pointer]
+          - img [ref=e721] [cursor=pointer]
+        - generic [ref=e728]:
+          - 'link "EURJPY $0 / 0.1 Lot Bid L : Ask H : Spread Buy 61%" [ref=e729] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802UU0vQ0ZUL1F3a0pBTzloU25DOW5HZz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802UU0vQ0ZUL1F3a0p5a0lCRjVjdU1mUT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e731] [cursor=pointer]
+            - generic [ref=e732] [cursor=pointer]:
+              - generic [ref=e734] [cursor=pointer]: EURJPY
+              - generic [ref=e737] [cursor=pointer]:
+                - generic [ref=e738] [cursor=pointer]: $0
+                - generic [ref=e739] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e741] [cursor=pointer]
+            - generic [ref=e743] [cursor=pointer]:
+              - generic [ref=e745] [cursor=pointer]: Bid
+              - generic [ref=e747] [cursor=pointer]: "L :"
+            - generic [ref=e749] [cursor=pointer]:
+              - generic [ref=e751] [cursor=pointer]: Ask
+              - generic [ref=e753] [cursor=pointer]: "H :"
+            - generic [ref=e756] [cursor=pointer]:
+              - img [ref=e757] [cursor=pointer]
+              - text: Spread
+            - img [ref=e759] [cursor=pointer]
+            - generic [ref=e760] [cursor=pointer]:
+              - generic [ref=e761] [cursor=pointer]: Buy
+              - generic [ref=e764] [cursor=pointer]: 61%
+            - img [ref=e766] [cursor=pointer]
+          - img [ref=e768] [cursor=pointer]
+        - generic [ref=e775]:
+          - 'link "EURNZD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 98%" [ref=e776] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802eWQ3RnpuZFdMa2dyUVUrODRWdXVadz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802eWQ3RnpuZFdMa2lNak1xMlFVeDZNQT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e778] [cursor=pointer]
+            - generic [ref=e779] [cursor=pointer]:
+              - generic [ref=e781] [cursor=pointer]: EURNZD
+              - generic [ref=e784] [cursor=pointer]:
+                - generic [ref=e785] [cursor=pointer]: $0
+                - generic [ref=e786] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e788] [cursor=pointer]
+            - generic [ref=e790] [cursor=pointer]:
+              - generic [ref=e792] [cursor=pointer]: Bid
+              - generic [ref=e794] [cursor=pointer]: "L :"
+            - generic [ref=e796] [cursor=pointer]:
+              - generic [ref=e798] [cursor=pointer]: Ask
+              - generic [ref=e800] [cursor=pointer]: "H :"
+            - generic [ref=e803] [cursor=pointer]:
+              - img [ref=e804] [cursor=pointer]
+              - text: Spread
+            - img [ref=e806] [cursor=pointer]
+            - generic [ref=e807] [cursor=pointer]:
+              - generic [ref=e808] [cursor=pointer]: Buy
+              - generic [ref=e811] [cursor=pointer]: 98%
+            - img [ref=e813] [cursor=pointer]
+          - img [ref=e815] [cursor=pointer]
+        - generic [ref=e822]:
+          - 'link "EURUSD $0 / 0.1 Lot Bid L : Ask H : Spread Sell 73%" [ref=e823] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802N0xkTWtkSXBXSUE3RkZPUkdCRjQ2dz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802N0xkTWtkSXBXSUNIRnhRMk8vbkxOUT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e825] [cursor=pointer]
+            - generic [ref=e826] [cursor=pointer]:
+              - generic [ref=e828] [cursor=pointer]: EURUSD
+              - generic [ref=e831] [cursor=pointer]:
+                - generic [ref=e832] [cursor=pointer]: $0
+                - generic [ref=e833] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e835] [cursor=pointer]
+            - generic [ref=e837] [cursor=pointer]:
+              - generic [ref=e839] [cursor=pointer]: Bid
+              - generic [ref=e841] [cursor=pointer]: "L :"
+            - generic [ref=e843] [cursor=pointer]:
+              - generic [ref=e845] [cursor=pointer]: Ask
+              - generic [ref=e847] [cursor=pointer]: "H :"
+            - generic [ref=e850] [cursor=pointer]:
+              - img [ref=e851] [cursor=pointer]
+              - text: Spread
+            - img [ref=e853] [cursor=pointer]
+            - generic [ref=e854] [cursor=pointer]:
+              - generic [ref=e855] [cursor=pointer]: Sell
+              - generic [ref=e858] [cursor=pointer]: 73%
+            - img [ref=e860] [cursor=pointer]
+          - img [ref=e862] [cursor=pointer]
+        - generic [ref=e869]:
+          - 'link "GBPAUD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 54%" [ref=e870] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802cVpWQmlWZytGL0tVR3JRTDhsWEErdz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802cVpWQmlWZytGL0tsU1d3YU5UTXdTQT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e872] [cursor=pointer]
+            - generic [ref=e873] [cursor=pointer]:
+              - generic [ref=e875] [cursor=pointer]: GBPAUD
+              - generic [ref=e878] [cursor=pointer]:
+                - generic [ref=e879] [cursor=pointer]: $0
+                - generic [ref=e880] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e882] [cursor=pointer]
+            - generic [ref=e884] [cursor=pointer]:
+              - generic [ref=e886] [cursor=pointer]: Bid
+              - generic [ref=e888] [cursor=pointer]: "L :"
+            - generic [ref=e890] [cursor=pointer]:
+              - generic [ref=e892] [cursor=pointer]: Ask
+              - generic [ref=e894] [cursor=pointer]: "H :"
+            - generic [ref=e897] [cursor=pointer]:
+              - img [ref=e898] [cursor=pointer]
+              - text: Spread
+            - img [ref=e900] [cursor=pointer]
+            - generic [ref=e901] [cursor=pointer]:
+              - generic [ref=e902] [cursor=pointer]: Buy
+              - generic [ref=e905] [cursor=pointer]: 54%
+            - img [ref=e907] [cursor=pointer]
+          - img [ref=e909] [cursor=pointer]
+        - generic [ref=e916]:
+          - 'link "GBPCAD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 63%" [ref=e917] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802aHpONXJhMjErQkloUkp2R0Q2NEJ4Zz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802aHpONXJhMjErQklGaHdYaGRMWnlJdz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e919] [cursor=pointer]
+            - generic [ref=e920] [cursor=pointer]:
+              - generic [ref=e922] [cursor=pointer]: GBPCAD
+              - generic [ref=e925] [cursor=pointer]:
+                - generic [ref=e926] [cursor=pointer]: $0
+                - generic [ref=e927] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e929] [cursor=pointer]
+            - generic [ref=e931] [cursor=pointer]:
+              - generic [ref=e933] [cursor=pointer]: Bid
+              - generic [ref=e935] [cursor=pointer]: "L :"
+            - generic [ref=e937] [cursor=pointer]:
+              - generic [ref=e939] [cursor=pointer]: Ask
+              - generic [ref=e941] [cursor=pointer]: "H :"
+            - generic [ref=e944] [cursor=pointer]:
+              - img [ref=e945] [cursor=pointer]
+              - text: Spread
+            - img [ref=e947] [cursor=pointer]
+            - generic [ref=e948] [cursor=pointer]:
+              - generic [ref=e949] [cursor=pointer]: Buy
+              - generic [ref=e952] [cursor=pointer]: 63%
+            - img [ref=e954] [cursor=pointer]
+          - img [ref=e956] [cursor=pointer]
+        - generic [ref=e963]:
+          - 'link "GBPCHF $0 / 0.1 Lot Bid L : Ask H : Spread Buy 90%" [ref=e964] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802RFZlZzF3bjJwV1ZyYWU1czJqU2hJZz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802RFZlZzF3bjJwV1dNclFtZytDMGNUQT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e966] [cursor=pointer]
+            - generic [ref=e967] [cursor=pointer]:
+              - generic [ref=e969] [cursor=pointer]: GBPCHF
+              - generic [ref=e972] [cursor=pointer]:
+                - generic [ref=e973] [cursor=pointer]: $0
+                - generic [ref=e974] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e976] [cursor=pointer]
+            - generic [ref=e978] [cursor=pointer]:
+              - generic [ref=e980] [cursor=pointer]: Bid
+              - generic [ref=e982] [cursor=pointer]: "L :"
+            - generic [ref=e984] [cursor=pointer]:
+              - generic [ref=e986] [cursor=pointer]: Ask
+              - generic [ref=e988] [cursor=pointer]: "H :"
+            - generic [ref=e991] [cursor=pointer]:
+              - img [ref=e992] [cursor=pointer]
+              - text: Spread
+            - img [ref=e994] [cursor=pointer]
+            - generic [ref=e995] [cursor=pointer]:
+              - generic [ref=e996] [cursor=pointer]: Buy
+              - generic [ref=e999] [cursor=pointer]: 90%
+            - img [ref=e1001] [cursor=pointer]
+          - img [ref=e1003] [cursor=pointer]
+        - generic [ref=e1010]:
+          - 'link "GBPJPY $0 / 0.1 Lot Bid L : Ask H : Spread Sell 59%" [ref=e1011] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802d29nalFHdkdEV0tzYlBEUHZVTFlQQT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802d29nalFHdkdEV0lMUHRtd0dyYTFNZz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1013] [cursor=pointer]
+            - generic [ref=e1014] [cursor=pointer]:
+              - generic [ref=e1016] [cursor=pointer]: GBPJPY
+              - generic [ref=e1019] [cursor=pointer]:
+                - generic [ref=e1020] [cursor=pointer]: $0
+                - generic [ref=e1021] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1023] [cursor=pointer]
+            - generic [ref=e1025] [cursor=pointer]:
+              - generic [ref=e1027] [cursor=pointer]: Bid
+              - generic [ref=e1029] [cursor=pointer]: "L :"
+            - generic [ref=e1031] [cursor=pointer]:
+              - generic [ref=e1033] [cursor=pointer]: Ask
+              - generic [ref=e1035] [cursor=pointer]: "H :"
+            - generic [ref=e1038] [cursor=pointer]:
+              - img [ref=e1039] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1041] [cursor=pointer]
+            - generic [ref=e1042] [cursor=pointer]:
+              - generic [ref=e1043] [cursor=pointer]: Sell
+              - generic [ref=e1046] [cursor=pointer]: 59%
+            - img [ref=e1048] [cursor=pointer]
+          - img [ref=e1050] [cursor=pointer]
+        - generic [ref=e1057]:
+          - 'link "GBPNZD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 51%" [ref=e1058] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802RHBVQ2hTN3NTeCtNZStUak9sSzZwZz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802RHBVQ2hTN3NTeCswNEFheWwvZDY2Zz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1060] [cursor=pointer]
+            - generic [ref=e1061] [cursor=pointer]:
+              - generic [ref=e1063] [cursor=pointer]: GBPNZD
+              - generic [ref=e1066] [cursor=pointer]:
+                - generic [ref=e1067] [cursor=pointer]: $0
+                - generic [ref=e1068] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1070] [cursor=pointer]
+            - generic [ref=e1072] [cursor=pointer]:
+              - generic [ref=e1074] [cursor=pointer]: Bid
+              - generic [ref=e1076] [cursor=pointer]: "L :"
+            - generic [ref=e1078] [cursor=pointer]:
+              - generic [ref=e1080] [cursor=pointer]: Ask
+              - generic [ref=e1082] [cursor=pointer]: "H :"
+            - generic [ref=e1085] [cursor=pointer]:
+              - img [ref=e1086] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1088] [cursor=pointer]
+            - generic [ref=e1089] [cursor=pointer]:
+              - generic [ref=e1090] [cursor=pointer]: Buy
+              - generic [ref=e1093] [cursor=pointer]: 51%
+            - img [ref=e1095] [cursor=pointer]
+          - img [ref=e1097] [cursor=pointer]
+        - generic [ref=e1104]:
+          - 'link "GBPUSD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 54%" [ref=e1105] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802NFNzaGhySHBJb0tCTk1oNEZjQjhDQT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802NFNzaGhySHBJb0piQnRRVEt1Rnp5dz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1107] [cursor=pointer]
+            - generic [ref=e1108] [cursor=pointer]:
+              - generic [ref=e1110] [cursor=pointer]: GBPUSD
+              - generic [ref=e1113] [cursor=pointer]:
+                - generic [ref=e1114] [cursor=pointer]: $0
+                - generic [ref=e1115] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1117] [cursor=pointer]
+            - generic [ref=e1119] [cursor=pointer]:
+              - generic [ref=e1121] [cursor=pointer]: Bid
+              - generic [ref=e1123] [cursor=pointer]: "L :"
+            - generic [ref=e1125] [cursor=pointer]:
+              - generic [ref=e1127] [cursor=pointer]: Ask
+              - generic [ref=e1129] [cursor=pointer]: "H :"
+            - generic [ref=e1132] [cursor=pointer]:
+              - img [ref=e1133] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1135] [cursor=pointer]
+            - generic [ref=e1136] [cursor=pointer]:
+              - generic [ref=e1137] [cursor=pointer]: Buy
+              - generic [ref=e1140] [cursor=pointer]: 54%
+            - img [ref=e1142] [cursor=pointer]
+          - img [ref=e1144] [cursor=pointer]
+        - generic [ref=e1151]:
+          - 'link "Hang Seng $0 / 0.1 Lot Bid L : Ask H : Spread Buy 77%" [ref=e1152] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802aW5BaHVKdVZsKzZWRTU0VmRmbTU0UT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802eEkrcXZmMndYb1pyVThtOU1WWkR0QT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1154] [cursor=pointer]
+            - generic [ref=e1155] [cursor=pointer]:
+              - generic [ref=e1157] [cursor=pointer]: Hang Seng
+              - generic [ref=e1160] [cursor=pointer]:
+                - generic [ref=e1161] [cursor=pointer]: $0
+                - generic [ref=e1162] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1164] [cursor=pointer]
+            - generic [ref=e1166] [cursor=pointer]:
+              - generic [ref=e1168] [cursor=pointer]: Bid
+              - generic [ref=e1170] [cursor=pointer]: "L :"
+            - generic [ref=e1172] [cursor=pointer]:
+              - generic [ref=e1174] [cursor=pointer]: Ask
+              - generic [ref=e1176] [cursor=pointer]: "H :"
+            - generic [ref=e1179] [cursor=pointer]:
+              - img [ref=e1180] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1182] [cursor=pointer]
+            - generic [ref=e1183] [cursor=pointer]:
+              - generic [ref=e1184] [cursor=pointer]: Buy
+              - generic [ref=e1187] [cursor=pointer]: 77%
+            - img [ref=e1189] [cursor=pointer]
+          - img [ref=e1191] [cursor=pointer]
+        - generic [ref=e1198]:
+          - 'link "Nikkei $0 / 0.1 Lot Bid L : Ask H : Spread Sell 67%" [ref=e1199] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802SWs2OTl6M1JsUEpLdzIwZXlCU1RCQT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802TVRVNmlrY1cvUzhtR2txYU5TcDVnUT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1201] [cursor=pointer]
+            - generic [ref=e1202] [cursor=pointer]:
+              - generic [ref=e1204] [cursor=pointer]: Nikkei
+              - generic [ref=e1207] [cursor=pointer]:
+                - generic [ref=e1208] [cursor=pointer]: $0
+                - generic [ref=e1209] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1211] [cursor=pointer]
+            - generic [ref=e1213] [cursor=pointer]:
+              - generic [ref=e1215] [cursor=pointer]: Bid
+              - generic [ref=e1217] [cursor=pointer]: "L :"
+            - generic [ref=e1219] [cursor=pointer]:
+              - generic [ref=e1221] [cursor=pointer]: Ask
+              - generic [ref=e1223] [cursor=pointer]: "H :"
+            - generic [ref=e1226] [cursor=pointer]:
+              - img [ref=e1227] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1229] [cursor=pointer]
+            - generic [ref=e1230] [cursor=pointer]:
+              - generic [ref=e1231] [cursor=pointer]: Sell
+              - generic [ref=e1234] [cursor=pointer]: 67%
+            - img [ref=e1236] [cursor=pointer]
+          - img [ref=e1238] [cursor=pointer]
+        - generic [ref=e1245]:
+          - 'link "Nasdaq $0 / 0.1 Lot Bid L : Ask H : Spread Sell 55%" [ref=e1246] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802N1o0S3AvbGk2NXdtTHp5aFNMbHI5Zz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802U0JhSG5icEh1Yk9wOEkxUVE0QUpvdz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1248] [cursor=pointer]
+            - generic [ref=e1249] [cursor=pointer]:
+              - generic [ref=e1251] [cursor=pointer]: Nasdaq
+              - generic [ref=e1254] [cursor=pointer]:
+                - generic [ref=e1255] [cursor=pointer]: $0
+                - generic [ref=e1256] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1258] [cursor=pointer]
+            - generic [ref=e1260] [cursor=pointer]:
+              - generic [ref=e1262] [cursor=pointer]: Bid
+              - generic [ref=e1264] [cursor=pointer]: "L :"
+            - generic [ref=e1266] [cursor=pointer]:
+              - generic [ref=e1268] [cursor=pointer]: Ask
+              - generic [ref=e1270] [cursor=pointer]: "H :"
+            - generic [ref=e1273] [cursor=pointer]:
+              - img [ref=e1274] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1276] [cursor=pointer]
+            - generic [ref=e1277] [cursor=pointer]:
+              - generic [ref=e1278] [cursor=pointer]: Sell
+              - generic [ref=e1281] [cursor=pointer]: 55%
+            - img [ref=e1283] [cursor=pointer]
+          - img [ref=e1285] [cursor=pointer]
+        - generic [ref=e1292]:
+          - 'link "NZDCAD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 58%" [ref=e1293] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802M0IrL01hQ0tnbkFtTlU1SXJWck5SZz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802M0IrL01hQ0tnbkIvSXFMVmlCbHU2QT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1295] [cursor=pointer]
+            - generic [ref=e1296] [cursor=pointer]:
+              - generic [ref=e1298] [cursor=pointer]: NZDCAD
+              - generic [ref=e1301] [cursor=pointer]:
+                - generic [ref=e1302] [cursor=pointer]: $0
+                - generic [ref=e1303] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1305] [cursor=pointer]
+            - generic [ref=e1307] [cursor=pointer]:
+              - generic [ref=e1309] [cursor=pointer]: Bid
+              - generic [ref=e1311] [cursor=pointer]: "L :"
+            - generic [ref=e1313] [cursor=pointer]:
+              - generic [ref=e1315] [cursor=pointer]: Ask
+              - generic [ref=e1317] [cursor=pointer]: "H :"
+            - generic [ref=e1320] [cursor=pointer]:
+              - img [ref=e1321] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1323] [cursor=pointer]
+            - generic [ref=e1324] [cursor=pointer]:
+              - generic [ref=e1325] [cursor=pointer]: Buy
+              - generic [ref=e1328] [cursor=pointer]: 58%
+            - img [ref=e1330] [cursor=pointer]
+          - img [ref=e1332] [cursor=pointer]
+        - generic [ref=e1339]:
+          - 'link "NZDCHF $0 / 0.1 Lot Bid L : Ask H : Spread Buy 82%" [ref=e1340] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802WFA2eDFNSTdPRVI4bHhrSTFUOC8vdz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802WFA2eDFNSTdPRVNFYklETnVxZ1E0QT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1342] [cursor=pointer]
+            - generic [ref=e1343] [cursor=pointer]:
+              - generic [ref=e1345] [cursor=pointer]: NZDCHF
+              - generic [ref=e1348] [cursor=pointer]:
+                - generic [ref=e1349] [cursor=pointer]: $0
+                - generic [ref=e1350] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1352] [cursor=pointer]
+            - generic [ref=e1354] [cursor=pointer]:
+              - generic [ref=e1356] [cursor=pointer]: Bid
+              - generic [ref=e1358] [cursor=pointer]: "L :"
+            - generic [ref=e1360] [cursor=pointer]:
+              - generic [ref=e1362] [cursor=pointer]: Ask
+              - generic [ref=e1364] [cursor=pointer]: "H :"
+            - generic [ref=e1367] [cursor=pointer]:
+              - img [ref=e1368] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1370] [cursor=pointer]
+            - generic [ref=e1371] [cursor=pointer]:
+              - generic [ref=e1372] [cursor=pointer]: Buy
+              - generic [ref=e1375] [cursor=pointer]: 82%
+            - img [ref=e1377] [cursor=pointer]
+          - img [ref=e1379] [cursor=pointer]
+        - generic [ref=e1386]:
+          - 'link "NZDJPY $0 / 0.1 Lot Bid L : Ask H : Spread Buy 70%" [ref=e1387] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802Mjk0cEF4elNXbk1ra05EbVUvNE5qQT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802Mjk0cEF4elNXblBQZDBHY0t6ZkZpUT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1389] [cursor=pointer]
+            - generic [ref=e1390] [cursor=pointer]:
+              - generic [ref=e1392] [cursor=pointer]: NZDJPY
+              - generic [ref=e1395] [cursor=pointer]:
+                - generic [ref=e1396] [cursor=pointer]: $0
+                - generic [ref=e1397] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1399] [cursor=pointer]
+            - generic [ref=e1401] [cursor=pointer]:
+              - generic [ref=e1403] [cursor=pointer]: Bid
+              - generic [ref=e1405] [cursor=pointer]: "L :"
+            - generic [ref=e1407] [cursor=pointer]:
+              - generic [ref=e1409] [cursor=pointer]: Ask
+              - generic [ref=e1411] [cursor=pointer]: "H :"
+            - generic [ref=e1414] [cursor=pointer]:
+              - img [ref=e1415] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1417] [cursor=pointer]
+            - generic [ref=e1418] [cursor=pointer]:
+              - generic [ref=e1419] [cursor=pointer]: Buy
+              - generic [ref=e1422] [cursor=pointer]: 70%
+            - img [ref=e1424] [cursor=pointer]
+          - img [ref=e1426] [cursor=pointer]
+        - generic [ref=e1433]:
+          - 'link "NZDUSD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 79%" [ref=e1434] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802ZkxKZnR1UVdhWnZDVmVzTVhLbk5WZz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802ZkxKZnR1UVdhWnVQWWxabXN2c0xtdz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1436] [cursor=pointer]
+            - generic [ref=e1437] [cursor=pointer]:
+              - generic [ref=e1439] [cursor=pointer]: NZDUSD
+              - generic [ref=e1442] [cursor=pointer]:
+                - generic [ref=e1443] [cursor=pointer]: $0
+                - generic [ref=e1444] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1446] [cursor=pointer]
+            - generic [ref=e1448] [cursor=pointer]:
+              - generic [ref=e1450] [cursor=pointer]: Bid
+              - generic [ref=e1452] [cursor=pointer]: "L :"
+            - generic [ref=e1454] [cursor=pointer]:
+              - generic [ref=e1456] [cursor=pointer]: Ask
+              - generic [ref=e1458] [cursor=pointer]: "H :"
+            - generic [ref=e1461] [cursor=pointer]:
+              - img [ref=e1462] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1464] [cursor=pointer]
+            - generic [ref=e1465] [cursor=pointer]:
+              - generic [ref=e1466] [cursor=pointer]: Buy
+              - generic [ref=e1469] [cursor=pointer]: 79%
+            - img [ref=e1471] [cursor=pointer]
+          - img [ref=e1473] [cursor=pointer]
+        - generic [ref=e1480]:
+          - 'link "OIL_NEXT $0 / 0.1 Lot Bid L : Ask H : Spread -" [ref=e1481] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802UE05WHMrMDR6elE9&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802SEJBVk1tbmQ1VFg1VjIzdWEwZVFudz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1483] [cursor=pointer]
+            - generic [ref=e1484] [cursor=pointer]:
+              - generic [ref=e1486] [cursor=pointer]: OIL_NEXT
+              - generic [ref=e1489] [cursor=pointer]:
+                - generic [ref=e1490] [cursor=pointer]: $0
+                - generic [ref=e1491] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1493] [cursor=pointer]
+            - generic [ref=e1495] [cursor=pointer]:
+              - generic [ref=e1497] [cursor=pointer]: Bid
+              - generic [ref=e1499] [cursor=pointer]: "L :"
+            - generic [ref=e1501] [cursor=pointer]:
+              - generic [ref=e1503] [cursor=pointer]: Ask
+              - generic [ref=e1505] [cursor=pointer]: "H :"
+            - generic [ref=e1508] [cursor=pointer]:
+              - img [ref=e1509] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1511] [cursor=pointer]
+            - generic [ref=e1512] [cursor=pointer]: "-"
+            - img [ref=e1515] [cursor=pointer]
+          - img [ref=e1517] [cursor=pointer]
+        - generic [ref=e1524]:
+          - 'link "S&P 500 $0 / 0.1 Lot Bid L : Ask H : Spread Buy 59%" [ref=e1525] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802Z1hvZngzMnlROXhPWE8rNEU0VFd0UT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802L3Z5ZDVaWk9ZTm5FTllWY3VKRjd0UT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1527] [cursor=pointer]
+            - generic [ref=e1528] [cursor=pointer]:
+              - generic [ref=e1530] [cursor=pointer]: S&P 500
+              - generic [ref=e1533] [cursor=pointer]:
+                - generic [ref=e1534] [cursor=pointer]: $0
+                - generic [ref=e1535] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1537] [cursor=pointer]
+            - generic [ref=e1539] [cursor=pointer]:
+              - generic [ref=e1541] [cursor=pointer]: Bid
+              - generic [ref=e1543] [cursor=pointer]: "L :"
+            - generic [ref=e1545] [cursor=pointer]:
+              - generic [ref=e1547] [cursor=pointer]: Ask
+              - generic [ref=e1549] [cursor=pointer]: "H :"
+            - generic [ref=e1552] [cursor=pointer]:
+              - img [ref=e1553] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1555] [cursor=pointer]
+            - generic [ref=e1556] [cursor=pointer]:
+              - generic [ref=e1557] [cursor=pointer]: Buy
+              - generic [ref=e1560] [cursor=pointer]: 59%
+            - img [ref=e1562] [cursor=pointer]
+          - img [ref=e1564] [cursor=pointer]
+        - generic [ref=e1571]:
+          - 'link "USDCAD $0 / 0.1 Lot Bid L : Ask H : Spread Buy 62%" [ref=e1572] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802V3FxQm5mTUVUcm1kOTZTRVMrWC9yQT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802V3FxQm5mTUVUcm5GTitYMGZNR2tWQT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1574] [cursor=pointer]
+            - generic [ref=e1575] [cursor=pointer]:
+              - generic [ref=e1577] [cursor=pointer]: USDCAD
+              - generic [ref=e1580] [cursor=pointer]:
+                - generic [ref=e1581] [cursor=pointer]: $0
+                - generic [ref=e1582] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1584] [cursor=pointer]
+            - generic [ref=e1586] [cursor=pointer]:
+              - generic [ref=e1588] [cursor=pointer]: Bid
+              - generic [ref=e1590] [cursor=pointer]: "L :"
+            - generic [ref=e1592] [cursor=pointer]:
+              - generic [ref=e1594] [cursor=pointer]: Ask
+              - generic [ref=e1596] [cursor=pointer]: "H :"
+            - generic [ref=e1599] [cursor=pointer]:
+              - img [ref=e1600] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1602] [cursor=pointer]
+            - generic [ref=e1603] [cursor=pointer]:
+              - generic [ref=e1604] [cursor=pointer]: Buy
+              - generic [ref=e1607] [cursor=pointer]: 62%
+            - img [ref=e1609] [cursor=pointer]
+          - img [ref=e1611] [cursor=pointer]
+        - generic [ref=e1618]:
+          - 'link "USDCHF $0 / 0.1 Lot Bid L : Ask H : Spread Buy 90%" [ref=e1619] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802TEVvR2lVWStRajM1OTl6ZEpNQ1dMQT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802TEVvR2lVWStRajNVU1U3WGdrN3NnUT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1621] [cursor=pointer]
+            - generic [ref=e1622] [cursor=pointer]:
+              - generic [ref=e1624] [cursor=pointer]: USDCHF
+              - generic [ref=e1627] [cursor=pointer]:
+                - generic [ref=e1628] [cursor=pointer]: $0
+                - generic [ref=e1629] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1631] [cursor=pointer]
+            - generic [ref=e1633] [cursor=pointer]:
+              - generic [ref=e1635] [cursor=pointer]: Bid
+              - generic [ref=e1637] [cursor=pointer]: "L :"
+            - generic [ref=e1639] [cursor=pointer]:
+              - generic [ref=e1641] [cursor=pointer]: Ask
+              - generic [ref=e1643] [cursor=pointer]: "H :"
+            - generic [ref=e1646] [cursor=pointer]:
+              - img [ref=e1647] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1649] [cursor=pointer]
+            - generic [ref=e1650] [cursor=pointer]:
+              - generic [ref=e1651] [cursor=pointer]: Buy
+              - generic [ref=e1654] [cursor=pointer]: 90%
+            - img [ref=e1656] [cursor=pointer]
+          - img [ref=e1658] [cursor=pointer]
+        - generic [ref=e1665]:
+          - 'link "USDJPY $0 / 0.1 Lot Bid L : Ask H : Spread Buy 72%" [ref=e1666] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802bTUvMjlGeXAzVVZldEVpNXhaTUpLZz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802bTUvMjlGeXAzVVdaY0syVWtwUW1Ydz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1668] [cursor=pointer]
+            - generic [ref=e1669] [cursor=pointer]:
+              - generic [ref=e1671] [cursor=pointer]: USDJPY
+              - generic [ref=e1674] [cursor=pointer]:
+                - generic [ref=e1675] [cursor=pointer]: $0
+                - generic [ref=e1676] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1678] [cursor=pointer]
+            - generic [ref=e1680] [cursor=pointer]:
+              - generic [ref=e1682] [cursor=pointer]: Bid
+              - generic [ref=e1684] [cursor=pointer]: "L :"
+            - generic [ref=e1686] [cursor=pointer]:
+              - generic [ref=e1688] [cursor=pointer]: Ask
+              - generic [ref=e1690] [cursor=pointer]: "H :"
+            - generic [ref=e1693] [cursor=pointer]:
+              - img [ref=e1694] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1696] [cursor=pointer]
+            - generic [ref=e1697] [cursor=pointer]:
+              - generic [ref=e1698] [cursor=pointer]: Buy
+              - generic [ref=e1701] [cursor=pointer]: 72%
+            - img [ref=e1703] [cursor=pointer]
+          - img [ref=e1705] [cursor=pointer]
+        - generic [ref=e1712]:
+          - 'link "Silver $0 / 0.1 Lot Bid L : Ask H : Spread Buy 84%" [ref=e1713] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802Z2xwZzlYSFYrRkxUc3g1clBITmRRdz09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802Z2xwZzlYSFYrRkptSTFmbjZSa1RIZz09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1715] [cursor=pointer]
+            - generic [ref=e1716] [cursor=pointer]:
+              - generic [ref=e1718] [cursor=pointer]: Silver
+              - generic [ref=e1721] [cursor=pointer]:
+                - generic [ref=e1722] [cursor=pointer]: $0
+                - generic [ref=e1723] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1725] [cursor=pointer]
+            - generic [ref=e1727] [cursor=pointer]:
+              - generic [ref=e1729] [cursor=pointer]: Bid
+              - generic [ref=e1731] [cursor=pointer]: "L :"
+            - generic [ref=e1733] [cursor=pointer]:
+              - generic [ref=e1735] [cursor=pointer]: Ask
+              - generic [ref=e1737] [cursor=pointer]: "H :"
+            - generic [ref=e1740] [cursor=pointer]:
+              - img [ref=e1741] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1743] [cursor=pointer]
+            - generic [ref=e1744] [cursor=pointer]:
+              - generic [ref=e1745] [cursor=pointer]: Buy
+              - generic [ref=e1748] [cursor=pointer]: 84%
+            - img [ref=e1750] [cursor=pointer]
+          - img [ref=e1752] [cursor=pointer]
+        - generic [ref=e1759]:
+          - 'link "Gold $0 / 0.1 Lot Bid L : Ask H : Spread Buy 63%" [ref=e1760] [cursor=pointer]':
+            - /url: trade-product-detail?product=f4c12de09956cce2e2dc3a107fe6a3a3521091802SDduUTRxWG1zSWpSY1c2VGxJeWlIUT09&symbol=f4c12de09956cce2e2dc3a107fe6a3a3521091802SDduUTRxWG1zSWd3Q1BpeXNZZEZRQT09&pagesFrom=f4c12de09956cce2e2dc3a107fe6a3a3521091802Qk1WL2VNcFVSUXhqZ1FKcWVyQm83QT09
+            - img [ref=e1762] [cursor=pointer]
+            - generic [ref=e1763] [cursor=pointer]:
+              - generic [ref=e1765] [cursor=pointer]: Gold
+              - generic [ref=e1768] [cursor=pointer]:
+                - generic [ref=e1769] [cursor=pointer]: $0
+                - generic [ref=e1770] [cursor=pointer]: / 0.1 Lot
+            - img [ref=e1772] [cursor=pointer]
+            - generic [ref=e1774] [cursor=pointer]:
+              - generic [ref=e1776] [cursor=pointer]: Bid
+              - generic [ref=e1778] [cursor=pointer]: "L :"
+            - generic [ref=e1780] [cursor=pointer]:
+              - generic [ref=e1782] [cursor=pointer]: Ask
+              - generic [ref=e1784] [cursor=pointer]: "H :"
+            - generic [ref=e1787] [cursor=pointer]:
+              - img [ref=e1788] [cursor=pointer]
+              - text: Spread
+            - img [ref=e1790] [cursor=pointer]
+            - generic [ref=e1791] [cursor=pointer]:
+              - generic [ref=e1792] [cursor=pointer]: Buy
+              - generic [ref=e1795] [cursor=pointer]: 63%
+            - img [ref=e1797] [cursor=pointer]
+          - img [ref=e1799] [cursor=pointer]
+  - generic [ref=e1803]:
+    - generic [ref=e1806]:
+      - generic [ref=e1808]:
+        - generic [ref=e1809]:
+          - generic [ref=e1810]: MIFX
+          - generic [ref=e1812]:
+            - link "Tentang" [ref=e1813] [cursor=pointer]:
               - /url: https://mifx.com/about-us
-            - link "Produk Kami" [ref=e575] [cursor=pointer]:
+            - link "Produk Kami" [ref=e1815] [cursor=pointer]:
               - /url: https://mifx.com/pilihan-product
-            - link "Trading Tools" [ref=e577] [cursor=pointer]:
+            - link "Trading Tools" [ref=e1817] [cursor=pointer]:
               - /url: https://mifx.com/about-us/trading-tools
-            - link "Download Platform" [ref=e579] [cursor=pointer]:
+            - link "Download Platform" [ref=e1819] [cursor=pointer]:
               - /url: download-tools
-            - link "Program Referral" [ref=e581] [cursor=pointer]:
+            - link "Program Referral" [ref=e1821] [cursor=pointer]:
               - /url: referral-program
-            - link "Blog" [ref=e583] [cursor=pointer]:
+            - link "Blog" [ref=e1823] [cursor=pointer]:
               - /url: https://mifx.com/academy/blogs
-        - generic [ref=e584]:
-          - generic [ref=e585]: BANTUAN
-          - generic [ref=e587]:
-            - link "Support Center" [ref=e588] [cursor=pointer]:
+        - generic [ref=e1824]:
+          - generic [ref=e1825]: BANTUAN
+          - generic [ref=e1827]:
+            - link "Support Center" [ref=e1828] [cursor=pointer]:
               - /url: https://mifx.zendesk.com/hc/id
-            - link "Hubungi Kami" [ref=e590] [cursor=pointer]:
+            - link "Hubungi Kami" [ref=e1830] [cursor=pointer]:
               - /url: https://mifx.com/contact-us
-            - link "Pengaduan" [ref=e592] [cursor=pointer]:
+            - link "Pengaduan" [ref=e1832] [cursor=pointer]:
               - /url: https://mifx.com/pengaduan
-            - link "Waspada Penipuan" [ref=e594] [cursor=pointer]:
+            - link "Waspada Penipuan" [ref=e1834] [cursor=pointer]:
               - /url: https://mifx.com/pemberitahuan
-            - link "Bug Bounty" [ref=e596] [cursor=pointer]:
+            - link "Bug Bounty" [ref=e1836] [cursor=pointer]:
               - /url: https://mifx.com/bounty
-      - generic [ref=e597]:
-        - generic [ref=e598]: LEGALITAS
-        - generic [ref=e600]:
+      - generic [ref=e1837]:
+        - generic [ref=e1838]: LEGALITAS
+        - generic [ref=e1840]:
           - text: "Badan Pengawas Perdagangan Berjangka Komoditi: 178/BAPPEBTI/SI/I/2003"
           - text: "Bursa Berjangka Jakarta: No. SPAB-044/BBJ/03/02"
           - text: "Bursa Komoditi dan Derivatif Indonesia: No. 010/SPKB/ICDX/Dir/III/2010"
           - text: "Kliring Berjangka Indonesia: No. 14/AK-KBI/III/2003"
           - text: "Indonesia Clearing House: 003/SPKK/ICH-MIF/VII/2017"
-        - generic [ref=e603]:
-          - img [ref=e605]
-          - img [ref=e606]
-      - generic [ref=e607]:
-        - generic [ref=e608]: MEDIA SOSIAL
-        - generic [ref=e610]:
-          - link [ref=e611] [cursor=pointer]:
+        - generic [ref=e1843]:
+          - img [ref=e1845]
+          - img [ref=e1846]
+      - generic [ref=e1847]:
+        - generic [ref=e1848]: MEDIA SOSIAL
+        - generic [ref=e1850]:
+          - link [ref=e1851] [cursor=pointer]:
             - /url: https://facebook.com/mifx.indonesia/
-            - img [ref=e612] [cursor=pointer]
-          - link [ref=e613] [cursor=pointer]:
+            - img [ref=e1852] [cursor=pointer]
+          - link [ref=e1853] [cursor=pointer]:
             - /url: https://twitter.com/mifx_indonesia
-            - img [ref=e614] [cursor=pointer]
-          - link [ref=e615] [cursor=pointer]:
+            - img [ref=e1854] [cursor=pointer]
+          - link [ref=e1855] [cursor=pointer]:
             - /url: https://instagram.com/mifx.indonesia/
-            - img [ref=e616] [cursor=pointer]
-          - link [ref=e617] [cursor=pointer]:
+            - img [ref=e1856] [cursor=pointer]
+          - link [ref=e1857] [cursor=pointer]:
             - /url: https://youtube.com/user/MifxChannel
-            - img [ref=e618] [cursor=pointer]
-        - generic [ref=e620]:
-          - img [ref=e622] [cursor=pointer]
-          - img [ref=e624] [cursor=pointer]
-    - generic [ref=e625]:
-      - paragraph [ref=e627]: PT Monex Investindo Futures beroperasi berdasarkan izin dan berada di bawah pengawasan BAPPEBTI, merupakan anggota bursa BBJ dan BKDI dan anggota kliring berjangka KBI & Indonesia Clearing House.
-      - paragraph [ref=e629]: Transaksi Perdagangan Berjangka memiliki peluang keuntungan dan risiko kerugian yang tinggi. MIFX tidak memberikan rekomendasi tentang investasi ataupun produk. Semua keputusan transaksi merupakan keputusan pribadi dari Nasabah. Layanan MIFX tunduk pada yurisdiksi hukum Indonesia. Dengan mengakses situs ini, Nasabah dianggap telah memahami risiko transaksi dan menyetujui untuk tunduk pada ketentuan hukum yang berlaku.
-  - iframe [ref=e631]:
+            - img [ref=e1858] [cursor=pointer]
+        - generic [ref=e1860]:
+          - img [ref=e1862] [cursor=pointer]
+          - img [ref=e1864] [cursor=pointer]
+    - generic [ref=e1865]:
+      - paragraph [ref=e1867]: PT Monex Investindo Futures beroperasi berdasarkan izin dan berada di bawah pengawasan BAPPEBTI, merupakan anggota bursa BBJ dan BKDI dan anggota kliring berjangka KBI & Indonesia Clearing House.
+      - paragraph [ref=e1869]: Transaksi Perdagangan Berjangka memiliki peluang keuntungan dan risiko kerugian yang tinggi. MIFX tidak memberikan rekomendasi tentang investasi ataupun produk. Semua keputusan transaksi merupakan keputusan pribadi dari Nasabah. Layanan MIFX tunduk pada yurisdiksi hukum Indonesia. Dengan mengakses situs ini, Nasabah dianggap telah memahami risiko transaksi dan menyetujui untuk tunduk pada ketentuan hukum yang berlaku.
+  - iframe [ref=e1871]:
     
-  - iframe [ref=e632]:
+  - iframe [ref=e1872]:
     - button "Open messaging window" [ref=f2e5] [cursor=pointer]:
       - img [ref=f2e7] [cursor=pointer]
 ```

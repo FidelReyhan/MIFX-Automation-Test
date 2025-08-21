@@ -5,7 +5,6 @@ async function clickPasar(page) {
     await pasar.click();
   }
   
-  module.exports = { clickPasar };
   
 async function clickOrder(page) {
     const pasar = page.locator('span.fontsize12.align-middle', { hasText: 'Order' }).first();
@@ -14,4 +13,5 @@ async function clickOrder(page) {
     await pasar.click();
   }
   
-  module.exports = { clickOrder };
+  module.exports = { clickPasar, clickOrder };
+

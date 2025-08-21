@@ -1,0 +1,140 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - link "Download Aplikasi MIFX" [ref=e8] [cursor=pointer]:
+      - /url: https://mifx.com/rq?link=http://mifx.com/clientarea/index?err=0bSGk5NGVHR1BaTGlrN2t4RldWd3dGekI0NzN0ejVrckduakVXNlRrRXlrUHR0aUV2aUs0QVErWFhyaUlIK3R1bWkydWRHbldPZ1JZSWZIVjlMb01qS1VkWktOWEh1b3Y0MUVhQ0NPU2liS1JCTGZ0S0ROUlRGZz096c&ds=index&code_type=campaign
+      - img [ref=e9] [cursor=pointer]
+      - text: Download Aplikasi MIFX
+    - generic [ref=e10]:
+      - link "SUPPORT CENTER" [ref=e11] [cursor=pointer]:
+        - /url: https://mifx.zendesk.com/hc/id
+        - img [ref=e12] [cursor=pointer]
+        - generic [ref=e13] [cursor=pointer]: SUPPORT CENTER
+      - img [ref=e14]
+      - generic [ref=e15]: 021-50996650
+  - generic [ref=e17]:
+    - link [ref=e21] [cursor=pointer]:
+      - /url: ../index
+      - img [ref=e22] [cursor=pointer]
+    - generic [ref=e24]:
+      - generic [ref=e26]: produk
+      - generic [ref=e28]: edukasi
+      - generic [ref=e30]: berita
+      - link "TENTANG" [ref=e32] [cursor=pointer]:
+        - /url: ../about-us
+      - img [ref=e34]
+      - generic [ref=e35]:
+        - link "BUKA AKUN DEMO" [ref=e37] [cursor=pointer]:
+          - /url: https://mifx.com/open-demo-account
+        - link "BUKA AKUN LIVE" [ref=e39] [cursor=pointer]:
+          - /url: https://mifx.com/open-live-account
+  - generic [ref=e45]:
+    - img [ref=e47]
+    - generic [ref=e48]: Silakan Login Ulang
+    - img [ref=e54]
+  - generic [ref=e60]:
+    - link [ref=e62] [cursor=pointer]:
+      - /url: ../index
+      - img [ref=e63] [cursor=pointer]
+    - generic [ref=e64]:
+      - img [ref=e66]
+      - generic [ref=e67]: Login
+  - generic [ref=e70]:
+    - generic [ref=e71]:
+      - img [ref=e73]
+      - generic [ref=e75]:
+        - heading "Buka Akun Demo dan Asah Kemampuan Trading Anda" [level=1] [ref=e77]
+        - generic [ref=e79]: "Dapatkan Akun Demo gratis yang langsung aktif dan bisa Anda akses selamanya hanya dengan membuka Akun MIFX. Pertajam juga kemampuan trading Anda dengan memanfaatkan berbagai keunggulan Akun Demo MIFX berikut:"
+        - list [ref=e81]:
+          - listitem [ref=e82]: Akses penuh ke puluhan video edukasi
+          - listitem [ref=e83]: Dana virtual $10.000 untuk trading demo
+          - listitem [ref=e84]: Trading Tools eksklusif untuk membantu analisis pasar
+    - generic [ref=e89]:
+      - generic [ref=e90]: LOGIN
+      - generic [ref=e92]: CLIENT AREA
+      - generic [ref=e94]: Email
+      - textbox [ref=e98]
+      - generic [ref=e99]: Password
+      - generic [ref=e103]:
+        - img [ref=e105] [cursor=pointer]
+        - textbox [ref=e106]
+      - generic [ref=e108]:
+        - generic [ref=e110]:
+          - checkbox "Ingat Saya" [ref=e111]
+          - generic [ref=e112]: Ingat Saya
+        - link "Lupa Password?" [ref=e114] [cursor=pointer]:
+          - /url: forgot
+      - button "LOG IN" [ref=e117] [cursor=pointer]
+      - link "Atau klik di sini untuk membuka akun MIFX" [ref=e121] [cursor=pointer]:
+        - /url: ../open-live-account
+  - generic [ref=e124]:
+    - generic [ref=e127]:
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]: MIFX
+          - generic [ref=e133]:
+            - link "Tentang" [ref=e134] [cursor=pointer]:
+              - /url: https://mifx.com/about-us
+            - link "Produk Kami" [ref=e136] [cursor=pointer]:
+              - /url: https://mifx.com/pilihan-product
+            - link "Trading Tools" [ref=e138] [cursor=pointer]:
+              - /url: https://mifx.com/about-us/trading-tools
+            - link "Download Platform" [ref=e140] [cursor=pointer]:
+              - /url: download-tools
+            - link "Program Referral" [ref=e142] [cursor=pointer]:
+              - /url: https://mifx.com/referral-program
+            - link "Blog" [ref=e144] [cursor=pointer]:
+              - /url: https://mifx.com/academy/blogs
+        - generic [ref=e145]:
+          - generic [ref=e146]: BANTUAN
+          - generic [ref=e148]:
+            - link "Support Center" [ref=e149] [cursor=pointer]:
+              - /url: https://mifx.zendesk.com/hc/id
+            - link "Hubungi Kami" [ref=e151] [cursor=pointer]:
+              - /url: https://mifx.com/contact-us
+            - link "Pengaduan" [ref=e153] [cursor=pointer]:
+              - /url: https://mifx.com/pengaduan
+            - link "Waspada Penipuan" [ref=e155] [cursor=pointer]:
+              - /url: https://mifx.com/pemberitahuan
+            - link "Bug Bounty" [ref=e157] [cursor=pointer]:
+              - /url: https://mifx.com/bounty
+      - generic [ref=e158]:
+        - generic [ref=e159]: LEGALITAS
+        - generic [ref=e161]:
+          - text: "Badan Pengawas Perdagangan Berjangka Komoditi: 178/BAPPEBTI/SI/I/2003"
+          - text: "Bursa Berjangka Jakarta: No. SPAB-044/BBJ/03/02"
+          - text: "Bursa Komoditi dan Derivatif Indonesia: No. 010/SPKB/ICDX/Dir/III/2010"
+          - text: "Kliring Berjangka Indonesia: No. 14/AK-KBI/III/2003"
+          - text: "Indonesia Clearing House: 003/SPKK/ICH-MIF/VII/2017"
+        - generic [ref=e164]:
+          - img [ref=e166]
+          - img [ref=e167]
+      - generic [ref=e168]:
+        - generic [ref=e169]: MEDIA SOSIAL
+        - generic [ref=e171]:
+          - link [ref=e172] [cursor=pointer]:
+            - /url: https://facebook.com/mifx.indonesia/
+            - img [ref=e173] [cursor=pointer]
+          - link [ref=e174] [cursor=pointer]:
+            - /url: https://twitter.com/mifx_indonesia
+            - img [ref=e175] [cursor=pointer]
+          - link [ref=e176] [cursor=pointer]:
+            - /url: https://instagram.com/mifx.indonesia/
+            - img [ref=e177] [cursor=pointer]
+          - link [ref=e178] [cursor=pointer]:
+            - /url: https://youtube.com/user/MifxChannel
+            - img [ref=e179] [cursor=pointer]
+        - generic [ref=e181]:
+          - img [ref=e183] [cursor=pointer]
+          - img [ref=e185] [cursor=pointer]
+    - generic [ref=e186]:
+      - paragraph [ref=e188]: PT Monex Investindo Futures beroperasi berdasarkan izin dan berada di bawah pengawasan BAPPEBTI, merupakan anggota bursa BBJ dan BKDI dan anggota kliring berjangka KBI & Indonesia Clearing House.
+      - paragraph [ref=e190]: Transaksi Perdagangan Berjangka memiliki peluang keuntungan dan risiko kerugian yang tinggi. MIFX tidak memberikan rekomendasi tentang investasi ataupun produk. Semua keputusan transaksi merupakan keputusan pribadi dari Nasabah. Layanan MIFX tunduk pada yurisdiksi hukum Indonesia. Dengan mengakses situs ini, Nasabah dianggap telah memahami risiko transaksi dan menyetujui untuk tunduk pada ketentuan hukum yang berlaku.
+  - iframe [ref=e192]:
+    
+  - iframe [ref=e193]:
+    - button "Open messaging window" [ref=f2e5] [cursor=pointer]:
+      - img [ref=f2e7] [cursor=pointer]
+```
